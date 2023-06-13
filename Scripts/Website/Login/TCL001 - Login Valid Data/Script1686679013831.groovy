@@ -30,8 +30,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Masuk untuk 
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/i_user'))
 
-WebUI.verifyElementText(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/h1_Coding Bootcamp Tech Talent Berkualitas'), 
-    'Coding Bootcamp')
+WebUI.verifyElementPresent(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/a_Logout'), 
+    1, FailureHandling.STOP_ON_FAILURE)
 
