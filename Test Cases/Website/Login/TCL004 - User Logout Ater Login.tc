@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCL002 - User Lupa Kata Sandi</name>
+   <name>TCL004 - User Logout Ater Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c7b29c95-0e3c-4a08-af78-1d5bc4534a7d</testCaseGuid>
+   <testCaseGuid>b6c63a22-cd1c-4c98-a314-687a7a7b6856</testCaseGuid>
 </TestCaseEntity>
