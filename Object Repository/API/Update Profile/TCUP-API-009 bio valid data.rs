@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-009</name>
+   <name>TCUP-API-009 bio valid data</name>
    <tag></tag>
    <elementGuidId>0d65160a-3a61-4afd-8844-3f9dcacfa487</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
