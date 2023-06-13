@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-007 Update Profile - whatsapp</name>
+   <name>TCUP-API-007 whatsapp valid data</name>
    <tag></tag>
    <elementGuidId>f5838c50-c9ee-4866-b846-347b9ef8a8c6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
