@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-014</name>
+   <name>TCUP-API-014 whatsapp with 13 digits</name>
    <tag></tag>
    <elementGuidId>b5644db6-63db-4cc9-a44d-772881d8e05e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
   &quot;charset&quot;: &quot;UTF-8&quot;,
   &quot;parameters&quot;: [
     {
-      &quot;name&quot;: &quot;name&quot;,
-      &quot;value&quot;: &quot;1234567890&quot;,
+      &quot;name&quot;: &quot;whatsapp&quot;,
+      &quot;value&quot;: &quot;1234567890123&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
