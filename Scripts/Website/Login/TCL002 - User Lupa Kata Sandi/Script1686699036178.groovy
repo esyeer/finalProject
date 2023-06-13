@@ -23,15 +23,13 @@ WebUI.navigateToUrl('https://demo-app.coding.id/')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_email'), 'ragil.irvandi97@gmail.com')
+WebUI.click(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Lupa kata sandi'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 
-    'QgfuYk5Tsdi8mqoM6vPKkQ==')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Lupa password akun Coding.ID kamu Rese_b3cffc/txt_Lupa Kata Sandi_email'), 
+    'ragil.irvandi97@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
+WebUI.click(findTestObject('Object Repository/Login/Page_Lupa password akun Coding.ID kamu Rese_b3cffc/btn_Kirim link'))
 
-WebUI.click(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/i_user'))
-
-WebUI.verifyElementPresent(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/a_Logout'), 
-    1, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Login/Verify Login/Page_Lupa password akun Coding.ID kamu Reset disini/p_Kami telah mengirimkan link untuk mengatur ulang kata sandi anda.Silahkan periksa email anda'), 
+    1)
 

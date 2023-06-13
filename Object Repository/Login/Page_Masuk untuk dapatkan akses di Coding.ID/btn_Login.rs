@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>btn_Login</name>
    <tag></tag>
    <elementGuidId>0a96b1f6-cfd8-438c-baa8-8d529a0eb8d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#buttonLoginTrack</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='buttonLoginTrack']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#buttonLoginTrack</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
