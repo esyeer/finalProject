@@ -15,7 +15,7 @@
       <guid>705bb593-30e9-4799-828d-452697a6b838</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/Login/TC001 - Login Valid Data</testCaseId>
+      <testCaseId>Test Cases/Website/Login/TCL001 - Login Valid Data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
