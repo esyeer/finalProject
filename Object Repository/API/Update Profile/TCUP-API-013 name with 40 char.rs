@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-013</name>
+   <name>TCUP-API-013 name with 40 char</name>
    <tag></tag>
    <elementGuidId>9e0409f2-7b0e-4ef0-9f62-bf441eb54a5e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
