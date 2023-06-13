@@ -39,5 +39,6 @@ WebUI.check(findTestObject('Object Repository/Register/Page_Buat akun dan dapatk
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
 WebUI.delay(2)
-
+WebUI.verifyElementText(findTestObject('Object Repository/Register/Page_Coding.ID - Verifikasi Email/validate_RegistrationSuccees'), Verifikasi Email)
+WebUI.delay(2)
 WebUI.closeBrowser()
