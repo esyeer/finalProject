@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-010</name>
+   <name>TCUP-API-010 position valid data</name>
    <tag></tag>
    <elementGuidId>434b9b6b-94a8-4575-8365-ecba92738a57</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
