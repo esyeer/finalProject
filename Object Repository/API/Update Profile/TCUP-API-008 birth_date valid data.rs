@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-008</name>
+   <name>TCUP-API-008 birth_date valid data</name>
    <tag></tag>
    <elementGuidId>3416a763-0f7b-40b2-b357-90f1a77fdea2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
