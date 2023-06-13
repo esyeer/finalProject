@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Kata                                 _98da12</name>
+   <name>txt_password</name>
    <tag></tag>
    <elementGuidId>d3d9c85c-7309-45d0-bbe8-256b1c89ac67</elementGuidId>
    <selectorCollection>
