@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-011</name>
+   <name>TCUP-API-011 whatsapp with alphabet only</name>
    <tag></tag>
    <elementGuidId>fb2c9305-db1d-465f-86fe-d2f70ee9bddc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
