@@ -16,7 +16,7 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;whatsapp&quot;,
-      &quot;value&quot;: &quot;1&quot;,
+      &quot;value&quot;: &quot;test&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
