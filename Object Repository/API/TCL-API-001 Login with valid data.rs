@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCL-API-001</name>
+   <name>TCL-API-001 Login with valid data</name>
    <tag></tag>
    <elementGuidId>103e89a6-bc6e-44b6-8a1e-1d60915bf487</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
