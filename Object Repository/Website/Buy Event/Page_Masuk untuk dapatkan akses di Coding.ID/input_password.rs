@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0e9aa4ac-683c-4fba-af68-e7860b9f06e0</webElementGuid>
+      <webElementGuid>70c8eee4-7f47-45fe-909d-6bd366d015dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>6cc55b0e-6809-4b5e-8e45-fe13503fa20f</webElementGuid>
+      <webElementGuid>5b04f8ad-65db-48b8-b10e-e2b4e966ecd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>b001fd67-916c-4e7f-83e7-cce8461009c6</webElementGuid>
+      <webElementGuid>c8874363-0e5e-4740-bd6c-48b434459ffc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Kata Sandi</value>
-      <webElementGuid>3f7c1baa-7d7e-4358-97b7-0432ead5e663</webElementGuid>
+      <webElementGuid>f77fdf49-dc1f-409a-9621-50d556103aa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>9736ee91-d8c9-4ea8-a42f-7ba0ec910717</webElementGuid>
+      <webElementGuid>b0152d9f-1307-4d12-b870-f4df8bda9dfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>e4c31b91-89a6-4163-8005-f1bafc96b8e6</webElementGuid>
+      <webElementGuid>d9b1248a-1e9f-4d15-aa6f-be44239414eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>71cb987b-d26a-4331-9d83-6910c6e795fb</webElementGuid>
+      <webElementGuid>d522aa1f-e098-45c9-ab51-745916360b3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password&quot;)</value>
-      <webElementGuid>a53f1929-6dc2-4df9-8c6e-f51ff6f12d3d</webElementGuid>
+      <webElementGuid>ad71b926-8cf0-4c89-94c6-eab48e64fa49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password']</value>
-      <webElementGuid>e4df3d51-2496-42be-b034-713cfae3838e</webElementGuid>
+      <webElementGuid>62ced5c8-5f41-4271-b839-0182b6fabf3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>aa7ce1a1-7752-4937-b590-ecff6662e7b7</webElementGuid>
+      <webElementGuid>1fcd83df-d5e8-41ba-a4c8-dd2c5c77dcbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'password' and @type = 'password' and @placeholder = 'Kata Sandi' and @name = 'password']</value>
-      <webElementGuid>1a3ebe1b-370a-4393-b1b2-b8a9a72266e3</webElementGuid>
+      <webElementGuid>8d78dcbb-5ced-4783-a650-fb41df409b05</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

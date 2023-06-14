@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8a8fdefb-2d22-48ed-8ee7-47c41fcd8343</webElementGuid>
+      <webElementGuid>db88907d-cd1e-4dfd-9c05-f48ab445cd61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cardOuter</value>
-      <webElementGuid>d0f25153-562d-43e6-aec4-4f4d326637fd</webElementGuid>
+      <webElementGuid>99b867ab-75b1-4e15-8628-7e7918fd0ea3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
                                                                                                             
                                                                                                                                     
                                     </value>
-      <webElementGuid>c8c6e6e1-ceac-44c0-934e-c15be11074ca</webElementGuid>
+      <webElementGuid>16aac05f-1633-41d2-a262-71782ba79b35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loopevent&quot;)/li[@id=&quot;blockListEvent&quot;]/a[1]/div[@class=&quot;cardOuter&quot;]</value>
-      <webElementGuid>2027bc92-1c52-487c-a9e2-ef7bb263b4f3</webElementGuid>
+      <webElementGuid>fd741073-873d-4062-8024-6a5d6a6537a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='blockListEvent']/a/div</value>
-      <webElementGuid>91aaff26-da59-4450-b491-f69b04744a73</webElementGuid>
+      <webElementGuid>117cce0c-6d49-4dad-9e3e-56a1af76bd5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[4]/following::div[5]</value>
-      <webElementGuid>21e31608-c14e-4923-9b56-b71f500f4fa6</webElementGuid>
+      <webElementGuid>e4658df1-85f6-4c85-bc86-4ba660cb7f80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CODING.ID Event'])[1]/following::div[10]</value>
-      <webElementGuid>4c36c378-ff3d-487c-b4ba-d50ff84dfcb9</webElementGuid>
+      <webElementGuid>abf27799-ffad-49a9-b2a2-b94998b60e86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div</value>
-      <webElementGuid>f44a03ea-d262-4ac7-8a6f-e64d4d852996</webElementGuid>
+      <webElementGuid>c51d21eb-1bad-45f4-99da-0ae54f57bc48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -218,6 +218,6 @@
                                                                                                             
                                                                                                                                     
                                     ')]</value>
-      <webElementGuid>64fda52c-8c70-43c9-8c65-3a636770ec91</webElementGuid>
+      <webElementGuid>1e111255-50b3-4b90-847a-c57e6b6818a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

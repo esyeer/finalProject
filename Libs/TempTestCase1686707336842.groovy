@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL010 - Login Field Email Not Fill\\20230614_074418\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Buy Events\\TCE003 - User Added Multiple Events\\20230614_084856\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL010 - Login Field Email Not Fill', new TestCaseBinding('Test Cases/Website/Login/TCL010 - Login Field Email Not Fill',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Website/Buy Events/TCE003 - User Added Multiple Events', new TestCaseBinding('Test Cases/Website/Buy Events/TCE003 - User Added Multiple Events',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
