@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCUP013-Update Name by Adding Special Characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>099a16c4-8fa9-499f-905d-16170df3e6da</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e3f69cb-902c-4f2a-b2cc-8c28ecd58742</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7472e148-28dc-4a4f-943b-d0f6ef6f4497</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.email</defaultValue>
+      <description></description>
+      <id>0e3f69cb-902c-4f2a-b2cc-8c28ecd58742</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>7472e148-28dc-4a4f-943b-d0f6ef6f4497</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

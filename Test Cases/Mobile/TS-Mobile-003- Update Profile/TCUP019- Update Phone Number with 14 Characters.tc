@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCL013 - Login With Space In Front Email</name>
+   <name>TCUP019- Update Phone Number with 14 Characters</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>03cd031f-d4ec-4a68-8d2e-39c7e6ae1397</testCaseGuid>
+   <testCaseGuid>045ddd38-dfb5-4159-9c80-6dc933559ec5</testCaseGuid>
 </TestCaseEntity>
