@@ -6,6 +6,15 @@
    <elementGuidId>f5838c50-c9ee-4866-b846-347b9ef8a8c6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYTIwZTI0MjM3ZDRlODI1OGRkZmNmOWExNTdmOTljYTIyYmYwMTkxMzUzMzhmZTE2YzMyNWUzZGEyNGNlNjRmYzNiYzY0MmI0ZWY2OThhMWQiLCJpYXQiOjE2ODY3MTQ2NDMuOTQ0NTc0LCJuYmYiOjE2ODY3MTQ2NDMuOTQ0NTc4LCJleHAiOjE3MTgzMzcwNDMuOTMyNTgzLCJzdWIiOiI1ODIiLCJzY29wZXMiOltdfQ.BLTKydH_jOeGzpzbdXCafrZblPaW8wKpUlZQ8uwf0okVXuTUUR5XIRzAbz8ccjLfnYo-zzSn3v3IbN8ATm8ckenB602z7DaAfSa_lYpa3ZnBpEiOGENF_oyvFY8CtvFKLrEvdSQ1gTNblDqUtNnb-iU_MtR-g-xLTDhJugQi1oyWGMN_MoSJn3QLm7hwLy3nuEWvg4ZM2ZVruh15BLq3jSc_KtIMqlK7CrQ3gTXjCNTEc7dfp0vi7rB3WJLgJFrBMKO9I6PkwT-RUatvA5vVIo8hpS-jZbfhiwJqk_i7UUTccm3kumP7zu46KCXb5fIooR_qt-SNssBh2DxGbqwFrWSaMRYc_5ITGqgUuTgRuDne_HgG_a3ZklJZyRiKTqWVbsSDUrmQVhm1Cq0iDQVXgu_BvCH7AP8kvGlynJzbL-aWcEf4odrGZfhlB1eYtp1U--z_UQ-458FsvgbJOF1CTeiZj7McUD1j8W_1wngaG3CF8j1jfigX5-3onShI8L1q4DF4ExCqYc6NOfzmxkY8PyWW9Co3PnruP2rU_2LMCrIqqoNN_FfCncEOohctr4iGYDneF1wTuR1i-gwZjga7GHTqPWIqQoiJAtxofjS_ovtByaSkN6pW6JJPNO62ha4JlAcp8hJguDE0qnXVaOomX1ZsD6VLW-aEJ-EqP4JnnBc</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
@@ -44,14 +53,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYWZkZjY4ZDFjM2U5Y2E3YTQ5M2M0MjI0ZDMzMTc2NmU4YjdiNDFlYTNjMTI3NmQ2OGIyNjJkMTQ5MjQ0MzMyMTg5NDU2Y2M3NzQ0Yjg5Y2MiLCJpYXQiOjE2ODY2NzE2OTYuMDUzNDc0LCJuYmYiOjE2ODY2NzE2OTYuMDUzNDc2LCJleHAiOjE3MTgyOTQwOTYuMDUyMjQsInN1YiI6IjU4MiIsInNjb3BlcyI6W119.kTHD7Z30yS9-PYqYV9OiNmqi_KSQHX0xP9otNkS_7zRnEDBCziPFNZq-lYOOEnO1_MzRm0pOQY1UtMujtOVyawumlt9dynkodyObNwyxB30pEUsPeWO5T4HgU-ZgNEQ0JNJO8e-lGutSI-XfHlKuciUWlxGPGIg4j43GBCMoLW7LUgbmYdjuJIq_xEZtfeak6sXAEiCZoCWAKLyIAwq-syldBcf7dmtYKQ5uGZv5U90K2vjb8HtpCgqIB_9O2xhIbFgRsHU329LatVrlpul98edjvNmXgwpNzxE5RQWOUnoOG-v2SovNxGvxUGDJ0Drq6Vizdnf9mj2Li3zT7WdpOtt4-N9nHNs7Rtf-ay5B_kFEvmHYuaDeAoDs0SChHSxOzA_N5UmDLdcuGxfJ2bjXbw_Z4Qr3WFOtOTE-L5ZAvBryZj7wKd0TiyZKgnVuivfahJ-8vqGeRlRDToSBdSQvJD1O4CkF4ja5pCdI0GpWr2Y9M83hvlt9axLFn48sMqu0FINPWe6sOV3Al0kGO9cVSc-FvSFFf5kBKbGPdhoHLoAaIO5Pp4ivOLbQ9183L7Eq3fe6epWFLJZ5sOwOGY6STJW4dwZdVhAIOHxU-tyM0cnCg6v-RFAj0S2BV5spH-l9IAZK9BAMQqzACvWLTBHdXBO9pmsUkyNHvvyPeNVGC54</value>
-      <webElementGuid>1dcbea4a-69a6-4acf-98ff-11a14bc2e807</webElementGuid>
+      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYTIwZTI0MjM3ZDRlODI1OGRkZmNmOWExNTdmOTljYTIyYmYwMTkxMzUzMzhmZTE2YzMyNWUzZGEyNGNlNjRmYzNiYzY0MmI0ZWY2OThhMWQiLCJpYXQiOjE2ODY3MTQ2NDMuOTQ0NTc0LCJuYmYiOjE2ODY3MTQ2NDMuOTQ0NTc4LCJleHAiOjE3MTgzMzcwNDMuOTMyNTgzLCJzdWIiOiI1ODIiLCJzY29wZXMiOltdfQ.BLTKydH_jOeGzpzbdXCafrZblPaW8wKpUlZQ8uwf0okVXuTUUR5XIRzAbz8ccjLfnYo-zzSn3v3IbN8ATm8ckenB602z7DaAfSa_lYpa3ZnBpEiOGENF_oyvFY8CtvFKLrEvdSQ1gTNblDqUtNnb-iU_MtR-g-xLTDhJugQi1oyWGMN_MoSJn3QLm7hwLy3nuEWvg4ZM2ZVruh15BLq3jSc_KtIMqlK7CrQ3gTXjCNTEc7dfp0vi7rB3WJLgJFrBMKO9I6PkwT-RUatvA5vVIo8hpS-jZbfhiwJqk_i7UUTccm3kumP7zu46KCXb5fIooR_qt-SNssBh2DxGbqwFrWSaMRYc_5ITGqgUuTgRuDne_HgG_a3ZklJZyRiKTqWVbsSDUrmQVhm1Cq0iDQVXgu_BvCH7AP8kvGlynJzbL-aWcEf4odrGZfhlB1eYtp1U--z_UQ-458FsvgbJOF1CTeiZj7McUD1j8W_1wngaG3CF8j1jfigX5-3onShI8L1q4DF4ExCqYc6NOfzmxkY8PyWW9Co3PnruP2rU_2LMCrIqqoNN_FfCncEOohctr4iGYDneF1wTuR1i-gwZjga7GHTqPWIqQoiJAtxofjS_ovtByaSkN6pW6JJPNO62ha4JlAcp8hJguDE0qnXVaOomX1ZsD6VLW-aEJ-EqP4JnnBc</value>
+      <webElementGuid>925d7964-92c1-487e-83e1-0a71032f87e9</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://demo-app.coding.id/api/updateprofile</restUrl>
+   <restUrl>https://demo-app.online/api/updateprofile</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
