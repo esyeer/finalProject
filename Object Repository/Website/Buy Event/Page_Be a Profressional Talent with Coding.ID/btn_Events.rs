@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d076a036-47de-4a34-902b-ed0cf15cdef0</webElementGuid>
+      <webElementGuid>9d42c52e-adc2-4be0-a350-faaa1b3d6e00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/event</value>
-      <webElementGuid>1ce7e807-f8b2-4fef-8b2e-8902fdbbb7fb</webElementGuid>
+      <webElementGuid>eacf1169-78b0-471c-adfc-305339476892</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Events</value>
-      <webElementGuid>2e3e2b82-acff-4034-a588-b3d414e1af34</webElementGuid>
+      <webElementGuid>94dd85c2-7688-470d-aa53-f65558902620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[4]/a[1]</value>
-      <webElementGuid>bc374187-ca65-44a9-9f81-60713f09af12</webElementGuid>
+      <webElementGuid>ea3cae60-2216-43cd-add7-8cbd76e69f47</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbar-collapse-1']/ul/li[4]/a</value>
-      <webElementGuid>71a5077a-49e6-41d2-a520-803980ddfa36</webElementGuid>
+      <webElementGuid>3bbc9b94-0068-40ec-881f-39948b0e23aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Events')]</value>
-      <webElementGuid>0b38c47d-e372-4659-a52a-737a26ab6d2d</webElementGuid>
+      <webElementGuid>54cbc6df-ea2f-4630-bacd-1ded4f620553</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[1]/following::a[1]</value>
-      <webElementGuid>72a34def-74dd-4313-914f-9925bd52e1dc</webElementGuid>
+      <webElementGuid>8cbc3b60-119b-409a-a2df-5b62a134a12b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bootcamp'])[1]/following::a[2]</value>
-      <webElementGuid>a78acb00-59c3-4d9d-a274-5e769bf6f605</webElementGuid>
+      <webElementGuid>8aadc85a-7873-4c99-b371-e93ee1f76204</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/preceding::a[1]</value>
-      <webElementGuid>9e558f63-6724-413b-9931-490ce9897f39</webElementGuid>
+      <webElementGuid>bfbbd01e-78a1-40be-be3f-e4466f7961fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontak'])[1]/preceding::a[2]</value>
-      <webElementGuid>00df7f70-4ae1-4a46-a0d5-c0caa5e86e48</webElementGuid>
+      <webElementGuid>31006a06-7908-45c0-8b99-198a87922645</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Events']/parent::*</value>
-      <webElementGuid>3eee0769-fd1f-4347-835f-c1a4e7c77430</webElementGuid>
+      <webElementGuid>7ee46392-1eb3-42f1-8a20-39d9e897b175</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/event')]</value>
-      <webElementGuid>98cacb9a-ff2b-475b-a1f6-fae9a983e483</webElementGuid>
+      <webElementGuid>569032eb-8e66-4687-b882-3a49f94c7cec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a</value>
-      <webElementGuid>79c78ad8-5fd2-405c-a811-315adb94878f</webElementGuid>
+      <webElementGuid>981b07b0-fe38-46b1-a79f-7f775fa3fad5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/event' and (text() = 'Events' or . = 'Events')]</value>
-      <webElementGuid>614d46ec-3b80-4c9c-934a-daaa66d2bc57</webElementGuid>
+      <webElementGuid>8fba695c-458f-4abc-a293-7f90d65a3645</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
