@@ -19,45 +19,48 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\ACER\\Videos\\Demo_APP_CodingID_1.0.apk', true)
 
-//Mobile.delay(2)
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/Button_LoginHere'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Login/btn_loginHere'), 0)
 
-//Mobile.delay(2)
-Mobile.tap(findTestObject('Mobile/Login/field_email (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Login/field_mail'), 'faceluck04256@gmail.com', 0)
 
-Mobile.setText(findTestObject('Mobile/Login/field_email (1)'), 'faceluck04256@gmail.com', 0)
+Mobile.setText(findTestObject('Object Repository/Mobile/Login/field_pass'), '@Qwerty123', 0)
 
-//Mobile.delay(2)
-Mobile.tap(findTestObject('Mobile/Login/field_password (1)'), 0)
+Mobile.delay(2)
 
-Mobile.setText(findTestObject('Mobile/Login/field_password (1)'), '@Qwerty123', 0)
-
-//Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Button_Login'), 0)
 
 //Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Profile'), 0)
-//
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Profile'), 0)
+
 //Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Gear_Icon'), 0)
-//
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Gear_Icon'), 0)
+
 //Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Edit_Profile'), 0)
-//
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Edit_Profile'), 0)
+
 //Mobile.delay(2)
-//Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Name'), "syarif hidayatullah", 0)
-//
+
+Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Name'), "syarif hidayatullah", 0)
+
 //Mobile.delay(2)
-//Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), "082189913645", 0)
-//
+
+Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), "082189913645", 0)
+
 //Mobile.delay(2)
-//Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Birthdate'), "29-Nov-1998", 0)
-//
+
+Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Birthdate'), "29-Nov-1998", 0)
+
 //Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 0)
-//
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 0)
+
 //Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/btn_popUp_Okay'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/btn_popUp_Okay'), 0)
+
 Mobile.delay(1)
 
 Mobile.closeApplication()
