@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Buy Events\\TCE005 - Remove Event From Cart\\20230614_090203\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Buy Events\\TCE007 - Buy Event Without Login\\20230614_094235\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/Buy Events/TCE005 - Remove Event From Cart', new TestCaseBinding('Test Cases/Website/Buy Events/TCE005 - Remove Event From Cart',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Website/Buy Events/TCE007 - Buy Event Without Login', new TestCaseBinding('Test Cases/Website/Buy Events/TCE007 - Buy Event Without Login',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
