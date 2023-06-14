@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL003 - User Logout Ater Login\\20230614_064648\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL008 - Login Password with Uppercase\\20230614_073115\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL003 - User Logout Ater Login', new TestCaseBinding('Test Cases/Website/Login/TCL003 - User Logout Ater Login',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL008 - Login Password with Uppercase', new TestCaseBinding('Test Cases/Website/Login/TCL008 - Login Password with Uppercase',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
