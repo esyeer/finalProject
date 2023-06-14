@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Buy Events\\TCE006 - User Check Cart\\20230614_093458\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Buy Events\\TCE009 - Checkout Event Without Checking Mark\\20230614_103352\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/Buy Events/TCE006 - User Check Cart', new TestCaseBinding('Test Cases/Website/Buy Events/TCE006 - User Check Cart',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Website/Buy Events/TCE009 - Checkout Event Without Checking Mark', new TestCaseBinding('Test Cases/Website/Buy Events/TCE009 - Checkout Event Without Checking Mark',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

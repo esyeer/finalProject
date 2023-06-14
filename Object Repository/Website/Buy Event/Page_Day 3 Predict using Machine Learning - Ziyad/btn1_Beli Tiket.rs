@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d926b727-dc2f-4117-befc-6f15f2aff2af</webElementGuid>
+      <webElementGuid>49b471e9-131b-49d1-9014-e5dbf7d7b5c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>addCart</value>
-      <webElementGuid>ec890948-7ab7-41e1-b819-2b36db3982b1</webElementGuid>
+      <webElementGuid>f291e4bf-a861-4630-8d3e-e2cbb704601a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-lg</value>
-      <webElementGuid>4bc59d6d-7e55-403a-b35c-f70afa1b042e</webElementGuid>
+      <webElementGuid>7cce2656-4716-4a48-9137-e4a00997d2cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Beli Tiket</value>
-      <webElementGuid>5298d86a-7c54-4f59-8b98-4a9695c972dc</webElementGuid>
+      <webElementGuid>83c9d8a3-2277-4c41-8fca-f8ced24bc88d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;addCart&quot;)</value>
-      <webElementGuid>482317b5-5dbf-4d87-91e8-e721d978382f</webElementGuid>
+      <webElementGuid>fb48395f-2cb2-434d-b0a0-f3590a1602d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='addCart']</value>
-      <webElementGuid>c7625a36-8521-4f33-8b79-015593a52dc9</webElementGuid>
+      <webElementGuid>96275e5f-9820-4b46-a108-6851cf88a193</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='list-button']/a</value>
-      <webElementGuid>e609ba1d-00b6-443b-bbc3-85ea249dad10</webElementGuid>
+      <webElementGuid>b231aadc-5c94-4135-a84d-96210ea16826</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Beli Tiket')]</value>
-      <webElementGuid>71030c77-1cc2-4766-a61e-9af630373964</webElementGuid>
+      <webElementGuid>817e23bf-a455-4c2d-882b-044d6c0ed0f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Detik'])[1]/following::a[1]</value>
-      <webElementGuid>cbdd2aab-5e79-4d1b-b43b-c8af2fd3c129</webElementGuid>
+      <webElementGuid>366f9afa-0632-41c1-bc00-b8589a4c8735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Menit'])[1]/following::a[1]</value>
-      <webElementGuid>c4397806-42d1-4b64-8aba-2469a70d8f42</webElementGuid>
+      <webElementGuid>00340777-466b-45cb-a4ef-5ec84d75a03b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Event lain yang banyak diminati'])[1]/preceding::a[1]</value>
-      <webElementGuid>729333d1-6626-452b-bf2e-bd0c2278892f</webElementGuid>
+      <webElementGuid>f4d44ddc-8fb3-4496-a9da-988294da332e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 4: Workshop'])[1]/preceding::a[1]</value>
-      <webElementGuid>7aedc821-a0b4-414d-96f3-a935b1402cfc</webElementGuid>
+      <webElementGuid>0a7ca665-5034-463e-8196-417e9b6918c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Beli Tiket']/parent::*</value>
-      <webElementGuid>f8e0f784-7de0-4593-ae82-0d6ef73e42de</webElementGuid>
+      <webElementGuid>6c3f3000-7ca8-4099-910c-73a22080495d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//aside/div[2]/ul/li[6]/a</value>
-      <webElementGuid>667cac13-a76a-4181-8326-e570007600e9</webElementGuid>
+      <webElementGuid>9a51b7cc-243a-4bff-987d-365efe92cf00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'addCart' and (text() = 'Beli Tiket' or . = 'Beli Tiket')]</value>
-      <webElementGuid>1888dce2-c41a-43e1-94be-872fb22df659</webElementGuid>
+      <webElementGuid>7d267da3-6971-4a2c-8418-c1771b9e3d63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
