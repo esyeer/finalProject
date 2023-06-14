@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCL-API-001 Login with valid data</name>
+   <name>TCL-API-001- Login with valid Username and Password</name>
    <tag></tag>
-   <elementGuidId>103e89a6-bc6e-44b6-8a1e-1d60915bf487</elementGuidId>
+   <elementGuidId>1e357b83-83cb-49b9-a46f-b573bf8ddfce</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <authorizationRequest>
@@ -15,35 +15,22 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: [
-    {
-      &quot;name&quot;: &quot;email&quot;,
-      &quot;value&quot;: &quot;testdatafp@gmail.com&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    },
-    {
-      &quot;name&quot;: &quot;password&quot;,
-      &quot;value&quot;: &quot;madesu123&quot;,
-      &quot;type&quot;: &quot;Text&quot;,
-      &quot;contentType&quot;: &quot;&quot;
-    }
-  ]
+  &quot;text&quot;: &quot;{\n\&quot;email\&quot;:\&quot;cihek19445@hempyl.com\&quot;,\n\&quot;password\&quot;:\&quot;P@ssw0rd\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
-   <httpBodyType>form-data</httpBodyType>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>multipart/form-data</value>
+      <value>application/json</value>
       <webElementGuid>5b423141-da48-42f5-bf4f-47dd7a0989c7</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
