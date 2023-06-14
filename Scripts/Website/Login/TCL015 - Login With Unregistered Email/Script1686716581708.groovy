@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demo-app.online/')
+
+WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
+
+WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_email'), 
+    'dokcil.cool05@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 
+    'QgfuYk5Tsdi8mqoM6vPKkQ==')
+
+WebUI.click(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/small_Email atau kata sandi salah'), 
+    0)
+
