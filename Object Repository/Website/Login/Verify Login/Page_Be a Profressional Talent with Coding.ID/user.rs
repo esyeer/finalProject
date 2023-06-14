@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_user</name>
+   <name>user</name>
    <tag></tag>
-   <elementGuidId>5ab19699-c4c8-43ed-9673-310a31609a9d</elementGuidId>
+   <elementGuidId>4b9f7f3a-90a8-4084-b287-bf1c0d66388d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>891ea053-8e4b-49f0-abfa-c9a39700da4c</webElementGuid>
+      <webElementGuid>65cb0b44-0893-421b-a397-a27ec5000689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fas fa-user-alt</value>
-      <webElementGuid>54497e3b-61fe-4025-b0f0-b2fbc20969a9</webElementGuid>
+      <webElementGuid>272e13c6-017e-4b46-b8fa-327e624f5799</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;___class_+?26___&quot;]/a[1]/i[@class=&quot;fas fa-user-alt&quot;]</value>
-      <webElementGuid>db4d5b11-1f47-4d0a-a39b-4e8818a8c8b0</webElementGuid>
+      <webElementGuid>75a36991-5600-4874-9df2-cecd5e57b7ee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
-      <webElementGuid>f1b41aa6-47e6-4dcd-85ff-bf6ee3160f4d</webElementGuid>
+      <webElementGuid>6a5d279c-6f39-4fcc-a872-3dcb26310e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/i</value>
-      <webElementGuid>7d826e28-7171-4043-a25c-11da16c61e31</webElementGuid>
+      <webElementGuid>d7ae4b5b-3813-45e8-b5e1-37e72d5cc8d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

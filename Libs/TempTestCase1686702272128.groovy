@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL003 - User Logout Ater Login\\20230614_064329\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL001 - Login Valid Data\\20230614_072432\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL003 - User Logout Ater Login', new TestCaseBinding('Test Cases/Website/Login/TCL003 - User Logout Ater Login',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL001 - Login Valid Data', new TestCaseBinding('Test Cases/Website/Login/TCL001 - Login Valid Data',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
