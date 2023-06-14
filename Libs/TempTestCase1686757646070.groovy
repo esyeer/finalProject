@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ACER\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\TS-Web-002- Login\\TCL013 - Login With Space In Front Email\\20230614_212808\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ACER\\AppData\\Local\\Temp\\Katalon\\Test Cases\\API\\LOgin valid\\20230614_234726\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/TS-Web-002- Login/TCL013 - Login With Space In Front Email', new TestCaseBinding('Test Cases/Website/TS-Web-002- Login/TCL013 - Login With Space In Front Email',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/API/LOgin valid', new TestCaseBinding('Test Cases/API/LOgin valid',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

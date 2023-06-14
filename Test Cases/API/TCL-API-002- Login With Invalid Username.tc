@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCL-API-002- Login With Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b891295-c19a-4986-a7b7-fadb4f661e28</testCaseGuid>
+</TestCaseEntity>

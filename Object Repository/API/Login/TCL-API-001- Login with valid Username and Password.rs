@@ -20,7 +20,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\&quot;email\&quot;:\&quot;cihek19445@hempyl.com\&quot;,\n\&quot;password\&quot;:\&quot;P@ssw0rd\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n\&quot;email\&quot;:\&quot;${email}\&quot;,\n\&quot;password\&quot;:\&quot;${password}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -58,6 +58,11 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+
+assertThat(response.getResponseText()).contains('Katalon Test Project')
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

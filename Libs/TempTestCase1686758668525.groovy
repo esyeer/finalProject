@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ACER\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Mobile\\Register\\LOGIN\\20230614_182451\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ACER\\AppData\\Local\\Temp\\Katalon\\Test Cases\\API\\TCL-API-002- Login With Invalid Username\\20230615_000428\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Mobile/Register/LOGIN', new TestCaseBinding('Test Cases/Mobile/Register/LOGIN',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/API/TCL-API-002- Login With Invalid Username', new TestCaseBinding('Test Cases/API/TCL-API-002- Login With Invalid Username',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
