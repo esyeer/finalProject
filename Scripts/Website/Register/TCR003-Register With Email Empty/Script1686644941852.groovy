@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl('http://demo-app.coding.id')
+
+WebUI.maximizeWindow()
 
 WebUI.delay(1)
 
@@ -60,6 +62,14 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
 
+WebUI.delay(2)
+
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_email'), "value", "", 10)
+//WebUI.verifyTextNotPresent('please fill out this field.', true)
+
+//alertText = WebUI.getAlertText()
+//
+//WebUI.verifyMatch(alertText, 'please fill out this field.', false)
 WebUI.delay(2)
 
 WebUI.closeBrowser()
