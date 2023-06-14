@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>84c97df0-dd2f-49ec-934f-400279fe5ee7</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Website-RegisterSuccess</testDataId>
       </testDataLink>
@@ -55,6 +55,12 @@
          <type>DATA_COLUMN</type>
          <value>confirmationPassword</value>
          <variableId>0bd4759d-e628-4c9c-9c91-74f583732b3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>84c97df0-dd2f-49ec-934f-400279fe5ee7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>whatsapp</value>
+         <variableId>4dedb640-13d4-4129-b682-6b98cded337e</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
