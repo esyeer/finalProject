@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL009 - Login Email and Password Upperacase\\20230614_073426\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\dokci\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Website\\Login\\TCL010 - Login Field Email Not Fill\\20230614_075017\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL009 - Login Email and Password Upperacase', new TestCaseBinding('Test Cases/Website/Login/TCL009 - Login Email and Password Upperacase',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Website/Login/TCL010 - Login Field Email Not Fill', new TestCaseBinding('Test Cases/Website/Login/TCL010 - Login Field Email Not Fill',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
