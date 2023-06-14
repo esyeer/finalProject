@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.coding.id/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
+WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_email'), 'ragil.irvandi97@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_email'), 'ragil.irvandi97@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 
     'QgfuYk5Tsdi8mqoM6vPKkQ==')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
+WebUI.click(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
 
-WebUI.click(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/i_user'))
+WebUI.click(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/i_user'))
 
-WebUI.verifyElementPresent(findTestObject('Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/a_Logout'), 
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/a_Logout'), 
     1, FailureHandling.STOP_ON_FAILURE)
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_email</name>
+   <name>input_password</name>
    <tag></tag>
-   <elementGuidId>cf274d60-529e-409f-9f4f-d75467211d2e</elementGuidId>
+   <elementGuidId>98e39a4e-1e5b-4a55-8059-0ca434354ef7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//input[@id='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>#password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3ec5a09b-d438-4f95-be90-5790b3b10305</webElementGuid>
+      <webElementGuid>7fdb6fe3-2b8d-47fd-ba0d-c6d2cf781316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>97876dc0-739e-4eab-aff9-c70afe34f0f7</webElementGuid>
+      <value>password</value>
+      <webElementGuid>88825066-ad94-4ee5-a4ae-654257a1266d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>2f4f2383-bbb5-49ae-98a1-9cd75086c7c6</webElementGuid>
+      <value>password</value>
+      <webElementGuid>7e215eac-79c6-4736-ad8f-b3fedd6eaa84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>contoh@mail.com</value>
-      <webElementGuid>445e7159-dd6b-4e6b-ba82-d63f0b83342a</webElementGuid>
+      <value>Masukan kata sandi anda</value>
+      <webElementGuid>aa0c606d-842f-45d1-b81a-b19848d5930a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>1ddd4ca9-165f-4411-954f-e83b4eb11b13</webElementGuid>
+      <value>form-control error-input </value>
+      <webElementGuid>87ea407a-b263-44b5-9f4e-e804af2a3756</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>c1703325-7369-4366-8a6d-bfd8301e5307</webElementGuid>
+      <value>password</value>
+      <webElementGuid>8e4b00e6-c3bb-4979-9e3f-f485ae5abd75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>6b18824c-4568-43b9-8533-1e6e1d0db325</webElementGuid>
+      <value>new-password</value>
+      <webElementGuid>0397cc8c-1c73-4e28-b861-a22f61e0b25d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>7d4696fc-b2fb-41de-8884-960e74fb63f5</webElementGuid>
+      <value>id(&quot;password&quot;)</value>
+      <webElementGuid>d1b2bcd7-fdec-4713-8879-b61c3b486bec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>fce768b4-53bc-49fa-8b61-5729890b8de4</webElementGuid>
+      <value>//input[@id='password']</value>
+      <webElementGuid>5b35830f-5fa7-480a-8b80-f69ad49f744c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/input</value>
-      <webElementGuid>962e39cb-dafd-456c-9330-0cfc7f591ac7</webElementGuid>
+      <value>//div[5]/div/input</value>
+      <webElementGuid>b71b92af-59c5-4db2-b086-f1c2f6d867af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @type = 'email' and @placeholder = 'contoh@mail.com' and @name = 'email']</value>
-      <webElementGuid>f3d59b5c-c859-40ed-8f80-d5d2af3bf854</webElementGuid>
+      <value>//input[@id = 'password' and @type = 'password' and @placeholder = 'Masukan kata sandi anda' and @name = 'password']</value>
+      <webElementGuid>590d9d13-3924-4f65-801e-8700d07737a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

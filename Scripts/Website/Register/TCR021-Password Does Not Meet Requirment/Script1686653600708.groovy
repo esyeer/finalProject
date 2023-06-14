@@ -23,46 +23,46 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Register/Page_Be a Profressional Talent with Coding.ID/button_Buat Akun'))
+WebUI.click(findTestObject('Object Repository/Website/Register/Page_Be a Profressional Talent with Coding.ID/button_Buat Akun'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_name'), 'syarif hidayatullah')
+WebUI.setText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_name'), 'syarif hidayatullah')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_birth_date'),
+WebUI.setText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_birth_date'),
 	'29-Nov-1998')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_email'), 'abcd@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_email'), 'abcd@gmail.com')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_whatsapp'),
+WebUI.setText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_whatsapp'),
 	'082189913645')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_password'),
+WebUI.setText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_password'),
 	'!QAZ2w')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_password_confirmation'),
+WebUI.setText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_password_confirmation'),
 	'!QAZ2w')
 
 WebUI.delay(2)
 
-WebUI.check(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/Checkbox_agreement'))
+WebUI.check(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/Checkbox_agreement'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
+WebUI.click(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Register/Page_Buat akun dan dapatkan akses di Coding.ID/Validate_Password Does Not meet Req'), 'The password must be at least 8 characters')
+WebUI.verifyElementText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/Validate_Password Does Not meet Req'), 'The password must be at least 8 characters')
 
 WebUI.closeBrowser()
