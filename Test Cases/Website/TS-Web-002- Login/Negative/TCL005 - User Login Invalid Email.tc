@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCL005 - User Login Invalid Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d01ec446-7b15-4224-9c7f-e2136c5f6a96</testCaseGuid>
+</TestCaseEntity>

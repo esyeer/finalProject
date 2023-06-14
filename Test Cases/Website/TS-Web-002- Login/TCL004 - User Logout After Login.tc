@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCL004 - User Logout After Login</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b6c63a22-cd1c-4c98-a314-687a7a7b6856</testCaseGuid>
-</TestCaseEntity>

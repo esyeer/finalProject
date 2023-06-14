@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCE001 - User Add Event to Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b990b9e-7fb3-4bad-a775-99821948dc05</testCaseGuid>
+</TestCaseEntity>
