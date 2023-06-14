@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn1_Beli Tiket</name>
+   <name>btn_Lihat Pembelian Saya</name>
    <tag></tag>
-   <elementGuidId>2aef563b-3752-44a3-bc51-7d553e67628d</elementGuidId>
+   <elementGuidId>ff95424f-e3bc-4c5a-8b2a-51c18406a081</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='addCart']</value>
+         <value>//a[@id='checkoutButton']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#addCart</value>
+         <value>#checkoutButton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,118 +22,122 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d926b727-dc2f-4117-befc-6f15f2aff2af</webElementGuid>
+      <webElementGuid>ab4f9423-f204-4486-ad0b-a4ef27cda425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/view_cart/129</value>
+      <webElementGuid>093e2148-94ca-4d2b-9c19-e0457c4aa153</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>addCart</value>
-      <webElementGuid>ec890948-7ab7-41e1-b819-2b36db3982b1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-lg</value>
-      <webElementGuid>4bc59d6d-7e55-403a-b35c-f70afa1b042e</webElementGuid>
+      <value>checkoutButton</value>
+      <webElementGuid>dfc0b237-f324-46f2-95f0-321f167172b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Beli Tiket</value>
-      <webElementGuid>5298d86a-7c54-4f59-8b98-4a9695c972dc</webElementGuid>
+      <value>Lihat
+                Pembelian Saya</value>
+      <webElementGuid>2aa2b2ed-322f-4247-81e8-4ad16a0e53b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addCart&quot;)</value>
-      <webElementGuid>482317b5-5dbf-4d87-91e8-e721d978382f</webElementGuid>
+      <value>id(&quot;checkoutButton&quot;)</value>
+      <webElementGuid>e6a5b925-82b4-46c3-bb64-d36dce339dd4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='addCart']</value>
-      <webElementGuid>c7625a36-8521-4f33-8b79-015593a52dc9</webElementGuid>
+      <value>//a[@id='checkoutButton']</value>
+      <webElementGuid>436fccf1-8c3c-456e-bbf4-e40ed1f9fad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='list-button']/a</value>
-      <webElementGuid>e609ba1d-00b6-443b-bbc3-85ea249dad10</webElementGuid>
+      <value>//div[@id='Modal_Success']/div/div[2]/a</value>
+      <webElementGuid>08a8729c-a7c3-48bc-93fc-41b3ea62f321</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Beli Tiket')]</value>
-      <webElementGuid>71030c77-1cc2-4766-a61e-9af630373964</webElementGuid>
+      <value>//a[contains(text(),'Lihat
+                Pembelian Saya')]</value>
+      <webElementGuid>bd23d925-c88b-4717-8cf3-ad751b7c9246</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detik'])[1]/following::a[1]</value>
-      <webElementGuid>cbdd2aab-5e79-4d1b-b43b-c8af2fd3c129</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 3: Predict using Machine Learning'])[3]/following::a[1]</value>
+      <webElementGuid>b617ca7d-ca12-426d-8cf0-0371959500f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menit'])[1]/following::a[1]</value>
-      <webElementGuid>c4397806-42d1-4b64-8aba-2469a70d8f42</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='add to cart success'])[1]/following::a[1]</value>
+      <webElementGuid>5332741a-d342-4ad2-9df2-207da68b6b51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event lain yang banyak diminati'])[1]/preceding::a[1]</value>
-      <webElementGuid>729333d1-6626-452b-bf2e-bd0c2278892f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Event Lainnya'])[1]/preceding::a[1]</value>
+      <webElementGuid>cc6c3535-e826-4494-b81e-89a4156618e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 4: Workshop'])[1]/preceding::a[1]</value>
-      <webElementGuid>7aedc821-a0b4-414d-96f3-a935b1402cfc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2010-2021 Coding.ID All rights reserved.'])[1]/preceding::a[2]</value>
+      <webElementGuid>490bea8b-9c49-4c99-98be-ef8289e18fff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Beli Tiket']/parent::*</value>
-      <webElementGuid>f8e0f784-7de0-4593-ae82-0d6ef73e42de</webElementGuid>
+      <value>//a[contains(@href, '/view_cart/129')]</value>
+      <webElementGuid>324a6893-598f-4038-bea4-a449e575abfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//aside/div[2]/ul/li[6]/a</value>
-      <webElementGuid>667cac13-a76a-4181-8326-e570007600e9</webElementGuid>
+      <value>//div[6]/div/div[2]/a</value>
+      <webElementGuid>d88d2a43-0c0c-4c96-8194-7f809b9435f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'addCart' and (text() = 'Beli Tiket' or . = 'Beli Tiket')]</value>
-      <webElementGuid>1888dce2-c41a-43e1-94be-872fb22df659</webElementGuid>
+      <value>//a[@href = '/view_cart/129' and @id = 'checkoutButton' and (text() = 'Lihat
+                Pembelian Saya' or . = 'Lihat
+                Pembelian Saya')]</value>
+      <webElementGuid>43689703-6a95-49b0-ac09-eab6bcbf18cf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
