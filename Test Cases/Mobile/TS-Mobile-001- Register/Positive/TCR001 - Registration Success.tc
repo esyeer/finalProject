@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCR001 - Registration Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91f2a11f-aec8-4443-ac01-4bf2ed37832c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f1e438b5-d305-4842-a3f1-afb9d4548d44</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'\r\n'</defaultValue>
+      <description></description>
+      <id>f1e438b5-d305-4842-a3f1-afb9d4548d44</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
