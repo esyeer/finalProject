@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ACER\\Videos\\Demo_APP_CodingID_1.0.apk', true)
+Mobile.startApplication('Data Files\\DemoAppV2.apk', true)
+
+Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/btn_loginHere'), 1)
 
@@ -26,6 +28,18 @@ Mobile.setText(findTestObject('Object Repository/Mobile/Login/field_mail'), 'unr
 Mobile.setText(findTestObject('Object Repository/Mobile/Login/field_pass'), '@Qwerty123', 1)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Button_Login'), 1)
+
+Mobile.delay(5)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile/Login/element_popUp'), 2)
+
+Mobile.delay(5)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Login/validate_ Invalid Credential'), 'Invalid Credential')
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Login/btn_PopUP_OK'), 0)
 
 Mobile.delay(2)
 
