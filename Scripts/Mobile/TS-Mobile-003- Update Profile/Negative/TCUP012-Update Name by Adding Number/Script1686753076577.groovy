@@ -57,31 +57,34 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Edit_Profile'
 
 Mobile.delay(2)
 
-Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), 'syarif hidayatullah', 10)
+Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), 'syarif123', 10)
 
 Mobile.delay(2)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), '082189913645', 10)
+Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Update Profile/android.widget.TextView - ValidateErrorName'), 'Cannot be empty and must be alphabetically')
 
-Mobile.delay(2)
+Mobile.delay(10)
 
+//Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), 'syarif@#$', 10)
+////Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), '082189913645', 10)
+//
+//Mobile.delay(2)
+//
+//Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Update Profile/android.widget.TextView - ValidateErrorName'), 'Cannot be empty and must be alphabetically')
+//
+//Mobile.delay(10)
+//
+//Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), '', 10)
+//
+//Mobile.delay(2)
+//
+//Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Update Profile/android.widget.TextView - ValidateErrorName'), 'Cannot be empty and must be alphabetically')
+//
+//Mobile.delay(5)
 //Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Birthdate'), '29-Nov-1998', 0)
 //Mobile.delay(2)
 //Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 0)
 //Mobile.delay(2)
-//
-//Mobile.pressBack()
-Mobile.delay(2)
-
-Mobile.pressBack()
-
-Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessProfile'), ' Profile ')
-
-Mobile.delay(3)
-
-Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessInformation'), 'Detail Information')
-
-Mobile.delay(3)
 
 Mobile.closeApplication()
 
