@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Lupa password
 
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Lupa password akun Coding.ID kamu Rese_b3cffc/btn_Kirim link'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Lupa password akun Coding.ID kamu Reset disini/p_Kami telah mengirimkan link untuk mengatur ulang kata sandi anda.Silahkan periksa email anda'), 
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/p_Kami telah mengirimkan link untuk mengatur ulang kata sandi anda.Silahkan periksa email anda'), 
     1)
+
+WebUI.closeBrowser()
 

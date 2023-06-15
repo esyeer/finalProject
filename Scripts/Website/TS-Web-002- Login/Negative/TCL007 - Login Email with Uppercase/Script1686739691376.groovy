@@ -31,8 +31,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Website/Login/Page_Masu
 
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
 
-WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressional Talent with Coding.ID/logo_user'))
+WebUI.verifyElementText(findTestObject('Website/Login/Verify Login/user'), 
+    'Login Failed')
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/a_Logout'), 
-    0)
+WebUI.closeBrowser()
 

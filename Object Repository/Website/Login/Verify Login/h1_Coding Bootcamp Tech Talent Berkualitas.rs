@@ -6,12 +6,12 @@
    <elementGuidId>07888573-138a-488b-a239-43f4aa09f674</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-body-homepage']/div/h1</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1.new_headline_h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-body-homepage']/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

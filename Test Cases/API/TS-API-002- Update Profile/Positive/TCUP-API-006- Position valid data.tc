@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCUP-API-007- Whatsapp valid data</name>
+   <name>TCUP-API-006- Position valid data</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>83a7a4c8-8c86-4d15-b0f3-e682e6c3f478</testCaseGuid>
+   <testCaseGuid>59b796a5-34e0-4290-8cc1-60263f5f669e</testCaseGuid>
 </TestCaseEntity>

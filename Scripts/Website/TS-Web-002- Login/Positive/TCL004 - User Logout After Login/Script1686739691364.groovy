@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressio
 
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressional Talent with Coding.ID/btn_Logout'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/h1_Coding Bootcamp Tech Talent Berkualitas'), 
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/h1_Coding Bootcamp Tech Talent Berkualitas'), 
     0)
+
+WebUI.closeBrowser()
 

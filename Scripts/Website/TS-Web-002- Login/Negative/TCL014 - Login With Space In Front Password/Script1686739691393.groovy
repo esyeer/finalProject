@@ -30,6 +30,8 @@ WebUI.setEncryptedText(findTestObject('Website/Login/Page_Masuk untuk dapatkan a
 
 WebUI.click(findTestObject('Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/small_Email atau kata sandi salah'), 
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Email atau kata sandi salah'), 
     0)
+
+WebUI.closeBrowser()
 

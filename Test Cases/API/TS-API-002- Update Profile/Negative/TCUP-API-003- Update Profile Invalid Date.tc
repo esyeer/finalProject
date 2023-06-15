@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCUP-API-003- Update Profile Invalid Date</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d64daf77-2da7-4f46-a078-ef9c7a05399c</testCaseGuid>
-</TestCaseEntity>

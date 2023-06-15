@@ -6,12 +6,12 @@
    <elementGuidId>4b9f7f3a-90a8-4084-b287-bf1c0d66388d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.fas.fa-user-alt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

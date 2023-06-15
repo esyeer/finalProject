@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>small_Email atau kata sandi salah</name>
+   <name>Email atau kata sandi salah</name>
    <tag></tag>
    <elementGuidId>e26cab9f-397d-417a-b0cb-f92bf7c5208a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::small[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::small[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

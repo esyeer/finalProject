@@ -6,12 +6,12 @@
    <elementGuidId>8f50c7b3-b41b-448d-ba25-a5092d350de3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[4]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>ul.wm-dropdown-menu > li:nth-of-type(4) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

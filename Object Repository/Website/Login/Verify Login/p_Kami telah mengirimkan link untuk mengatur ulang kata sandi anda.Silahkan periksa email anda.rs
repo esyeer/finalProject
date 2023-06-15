@@ -6,12 +6,12 @@
    <elementGuidId>476225f6-0041-496c-86fd-76b7c8dbfc58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa Kata Sandi'])[1]/following::p[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.text-muted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa Kata Sandi'])[1]/following::p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
