@@ -17,22 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+response = WS.sendRequest(findTestObject('API/Update Profile/TCUP-API-009 bio valid data'))
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WS.comment(response.getResponseBodyContent())
 
-WebUI.click(findTestObject('Website/Login/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
+WS.verifyResponseStatusCode(response, 200)
 
-WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_email'), 
-    '   ragil.irvandi97@gmail.com')
+WS.verifyElementPropertyValue(response, 'status', '200')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 
-    'QgfuYk5Tsdi8mqoM6vPKkQ==')
-
-WebUI.click(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
-
-WebUI.click(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/user'))
-
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Page_Be a Profressional Talent with Coding.ID/small_Email atau kata sandi salah'), 
-    1)
+WS.verifyElementPropertyValue(response, 'message', 'success')
 
