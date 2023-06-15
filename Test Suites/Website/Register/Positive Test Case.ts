@@ -57,9 +57,9 @@
          <variableId>0bd4759d-e628-4c9c-9c91-74f583732b3c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>84c97df0-dd2f-49ec-934f-400279fe5ee7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>whatsapp</value>
          <variableId>17e411bf-04ef-4a92-b934-60b9bf5376f8</variableId>
       </variableLink>
    </testCaseLink>
