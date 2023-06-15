@@ -12,7 +12,7 @@
       <variableId>f1e438b5-d305-4842-a3f1-afb9d4548d44</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'\r\n'</defaultValue>
+      <defaultValue>'abcd@gmail.com'</defaultValue>
       <description></description>
       <id>f1e438b5-d305-4842-a3f1-afb9d4548d44</id>
       <masked>false</masked>
