@@ -31,15 +31,15 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Login/Button_Login'), 1)
 
 Mobile.delay(5)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Mobile/Login/element_popUp'), 2)
+Mobile.verifyElementVisible(findTestObject('Mobile/Login/validate_PopUp'), 2)
 
 Mobile.delay(5)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Login/validate_ Invalid Credential'), 'Invalid Credential')
+Mobile.verifyElementText(findTestObject('Mobile/Login/android.widget.TextView - Invalid Credential'), 'Invalid Credential')
 
-Mobile.delay(2)
+Mobile.delay(3)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Mobile/Login/Btn_PopUpOK'), 0)
 
 Mobile.delay(2)
 
