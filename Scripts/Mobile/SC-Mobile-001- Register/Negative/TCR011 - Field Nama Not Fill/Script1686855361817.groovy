@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Mobile/Register/btn- Register, now'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Register/txt-Nama'), 'Ragil Irvandi', 0)
+Mobile.setText(findTestObject('Mobile/Register/txt-Nama'), '', 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
@@ -53,7 +53,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- OK'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Register/txt-Email'), 'test%datafp@gmail.com', 0)
+Mobile.setText(findTestObject('Mobile/Register/txt-Email'), 'ragil.irvandi97@gmail.com', 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
@@ -77,7 +77,8 @@ Mobile.tap(findTestObject('Mobile/Register/btn-Daftar'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Mobile/Register/Verification Terjadi kesalahan'), 'Terjadi kesalahan')
+Mobile.verifyElementAttributeValue(findTestObject('Mobile/Register/android.widget.TextView - Daftar'), 'clickable', 'false', 
+    0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

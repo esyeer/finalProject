@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Bootcamp\\Advanced Class\\DemoAppV2.apk', true)
 
-Mobile.takeScreenshot()
-
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn-Login Here'), 0)
@@ -79,7 +77,7 @@ Mobile.tap(findTestObject('Mobile/Register/btn-Daftar'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Mobile/Register/Verification Name must be alphabetic'), 'Email sudah terdaftar')
+Mobile.verifyElementText(findTestObject('Mobile/Register/Verification Name must be alphabetic'), 'Name must be alphabetic')
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
