@@ -39,7 +39,7 @@ Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Login/validate
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Login/btn_PopUP_OK'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
 Mobile.delay(2)
 
