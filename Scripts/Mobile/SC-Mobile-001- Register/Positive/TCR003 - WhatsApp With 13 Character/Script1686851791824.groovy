@@ -17,3 +17,71 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('D:\\Bootcamp\\Advanced Class\\DemoAppV2.apk', true)
+
+Mobile.takeScreenshot()
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn-Login Here'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Register/btn- Register, now'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Register/txt-Nama'), 'Ragil Irvandi', 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- Birth Date'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Year'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Month'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Date'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- OK'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Register/txt-Email'), email, 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Register/txt-WhatsApp'), '123456789012', 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Register/txt-Password'), 'madesu123', 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Mobile/Register/txt-Confirm Password'), 'madesu123', 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/CheckBox'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Register/btn-Daftar'), 0)
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementText(findTestObject('Mobile/Register/Verification mail'), 'Verification mail')
+
+Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+

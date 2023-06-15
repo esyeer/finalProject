@@ -49,6 +49,8 @@ Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Date'), 0)
 
+Mobile.verifyElementText(findTestObject('Mobile/Register/btn- Birth Date'), '12-June-2017')
+
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- OK'), 0)

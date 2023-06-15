@@ -55,11 +55,11 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- OK'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Register/txt-Email'), email, 0)
+Mobile.setText(findTestObject('Mobile/Register/txt-Email'), 'test%datafp@gmail.com', 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Register/txt-WhatsApp'), '123456789012', 0)
+Mobile.setText(findTestObject('Mobile/Register/txt-WhatsApp'), '123456789', 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
@@ -79,7 +79,7 @@ Mobile.tap(findTestObject('Mobile/Register/btn-Daftar'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Mobile/Register/Verification mail'), 'Verification mail')
+Mobile.verifyElementText(findTestObject('Mobile/Register/Verification Terjadi kesalahan'), 'Terjadi kesalahan')
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 

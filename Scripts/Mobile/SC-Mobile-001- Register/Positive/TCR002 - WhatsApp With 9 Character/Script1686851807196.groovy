@@ -39,15 +39,15 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- Birth Date'), 
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.yeardefault- 2016'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Year'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.yearfix - 2015'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Month'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Date - 19'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Date'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
