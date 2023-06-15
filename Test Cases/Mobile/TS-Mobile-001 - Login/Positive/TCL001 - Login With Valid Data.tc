@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TCL-Mobile-002- Login With UnRegistered Email</name>
+   <name>TCL001 - Login With Valid Data</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ec96456e-43b1-485d-9776-1a1028ac8e20</testCaseGuid>
+   <testCaseGuid>2a21ea79-2e20-4dcc-ac71-02ef983d56bd</testCaseGuid>
 </TestCaseEntity>
