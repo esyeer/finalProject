@@ -17,3 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+response = WS.sendRequest(findTestObject('API/Update Profile/TCUP-API-011 whatsapp with alphabet only'))
+
+WS.comment(response.getResponseBodyContent())
+
+WS.verifyResponseStatusCode(response, 400)
+
+WS.verifyElementPropertyValue(response, 'error', 'Must be numberic')

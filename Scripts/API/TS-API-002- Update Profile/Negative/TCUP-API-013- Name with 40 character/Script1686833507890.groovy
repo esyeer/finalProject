@@ -17,12 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API/Update Profile/TCUP-API-010 position valid data'))
+response = WS.sendRequest(findTestObject('API/Update Profile/TCUP-API-011 whatsapp with alphabet only'))
 
 WS.comment(response.getResponseBodyContent())
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, 400)
 
-WS.verifyElementPropertyValue(response, 'status', '200')
-
-WS.verifyElementPropertyValue(response, 'message', 'success')
+WS.verifyElementPropertyValue(response, 'error', 'Name Max 30 Character')

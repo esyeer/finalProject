@@ -27,6 +27,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>17e411bf-04ef-4a92-b934-60b9bf5376f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>b57f1f19-63ce-4ca5-a032-2e8e701d0366</variableId>
    </variableLinks>
    <variableLinks>
@@ -55,6 +61,13 @@
       <id>f7b4a535-fb1d-455e-8e69-c82a8310f8e6</id>
       <masked>false</masked>
       <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>17e411bf-04ef-4a92-b934-60b9bf5376f8</id>
+      <masked>false</masked>
+      <name>whatsapp</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
