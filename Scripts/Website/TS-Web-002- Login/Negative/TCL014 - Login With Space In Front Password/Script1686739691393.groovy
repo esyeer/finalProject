@@ -28,10 +28,11 @@ WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk d
 
 WebUI.setEncryptedText(findTestObject('Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 'pX12occkmMCqVpviC9qkvg==')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Email atau kata sandi salah'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Email atau kata sandi salah'), 0)
 
 WebUI.closeBrowser()
 

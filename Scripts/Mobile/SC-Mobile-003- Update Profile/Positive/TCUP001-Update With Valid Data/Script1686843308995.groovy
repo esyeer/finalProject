@@ -57,7 +57,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Edit_Profile'
 
 Mobile.delay(2)
 
-Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), 'syarif hidayatullah', 10)
+Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), 'syarif hidayatullah', 0)
 
 Mobile.delay(2)
 
@@ -92,9 +92,9 @@ Mobile.verifyElementText(findTestObject('Mobile/Update Profile/Validate_SuccessC
 Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/btn_popUp_Okay'), 0)
+
 //Mobile.pressBack()
 Mobile.delay(2)
-
 
 Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessProfile'), ' Profile ')
 

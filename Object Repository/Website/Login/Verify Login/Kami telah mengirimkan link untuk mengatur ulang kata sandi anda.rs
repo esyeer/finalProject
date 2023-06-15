@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Kami telah mengirimkan link untuk mengatur ulang kata sandi anda.Silahkan periksa email anda</name>
+   <name>Kami telah mengirimkan link untuk mengatur ulang kata sandi anda</name>
    <tag></tag>
    <elementGuidId>476225f6-0041-496c-86fd-76b7c8dbfc58</elementGuidId>
    <selectorCollection>

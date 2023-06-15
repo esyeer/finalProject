@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Coding Bootcamp Tech Talent Berkualitas</name>
+   <name>Logout Success</name>
    <tag></tag>
    <elementGuidId>07888573-138a-488b-a239-43f4aa09f674</elementGuidId>
    <selectorCollection>

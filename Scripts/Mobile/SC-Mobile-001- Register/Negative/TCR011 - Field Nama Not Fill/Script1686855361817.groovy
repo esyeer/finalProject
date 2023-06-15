@@ -19,15 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Bootcamp\\Advanced Class\\DemoAppV2.apk', true)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn-Login Here'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Mobile/Register/btn- Register, now'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Mobile/Register/txt-Nama'), '', 0)
 
@@ -35,52 +29,28 @@ Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- Birth Date'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Year'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Month'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn.Date'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- OK'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.setText(findTestObject('Mobile/Register/txt-Email'), 'ragil.irvandi97@gmail.com', 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Mobile/Register/txt-WhatsApp'), '123456789', 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.setText(findTestObject('Mobile/Register/txt-Password'), 'madesu123', 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Mobile/Register/txt-Confirm Password'), 'madesu123', 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/CheckBox'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/Register/btn-Daftar'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.verifyElementAttributeValue(findTestObject('Mobile/Register/android.widget.TextView - Daftar'), 'clickable', 'false', 
     0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

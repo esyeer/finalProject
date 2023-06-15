@@ -26,13 +26,14 @@ WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressio
 WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_email'), 
     'RaGiL.irvandi97@gmail.com')
 
+WebUI.takeScreenshot()
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/txt_password'), 
     'QgfuYk5Tsdi8mqoM6vPKkQ==')
 
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
 
-WebUI.verifyElementText(findTestObject('Website/Login/Verify Login/user'), 
-    'Login Failed')
+WebUI.verifyElementText(findTestObject('Website/Login/Verify Login/User Login Success'), 'Login Failed')
 
 WebUI.closeBrowser()
 

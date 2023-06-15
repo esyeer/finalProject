@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Bootcamp\\Advanced Class\\DemoAppV2.apk', true)
 
-Mobile.takeScreenshot()
-
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn-Login Here'), 0)

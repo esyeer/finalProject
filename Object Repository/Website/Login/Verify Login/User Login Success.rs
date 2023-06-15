@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>user</name>
+   <name>User Login Success</name>
    <tag></tag>
    <elementGuidId>4b9f7f3a-90a8-4084-b287-bf1c0d66388d</elementGuidId>
    <selectorCollection>

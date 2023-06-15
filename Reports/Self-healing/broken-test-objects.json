@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Website/Login/Verify Login/User Login Success",
+      "brokenLocator": "//div[@id\u003d\u0027navbar-collapse-1\u0027]/ul/li[7]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Website/Login/Verify Login/User Login Success_position.png"
+    }
+  ]
 }

@@ -21,17 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Lupa kata sandi'))
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Website/Login/Page_Lupa password akun Coding.ID kamu Rese_b3cffc/txt_Lupa Kata Sandi_email'), 
     'ragil.irvandi97@gmail.com')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Login/Page_Lupa password akun Coding.ID kamu Rese_b3cffc/btn_Kirim link'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/p_Kami telah mengirimkan link untuk mengatur ulang kata sandi anda.Silahkan periksa email anda'), 
-    1)
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Website/Login/Verify Login/Forgot Password Success'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 
