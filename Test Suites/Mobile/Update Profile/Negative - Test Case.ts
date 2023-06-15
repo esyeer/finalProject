@@ -15,7 +15,7 @@
       <guid>d7f42feb-48d6-4915-b3c2-9714f7c145a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/TS-Mobile-003- Update Profile/Negative/TCUP011- Cancel Update By Pressing Back</testCaseId>
+      <testCaseId>Test Cases/Mobile/SC-Mobile-003- Update Profile/Negative/TCUP011- Cancel Update By Pressing Back</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +34,7 @@
       <guid>ce125012-bdfa-4d13-9b98-57deee234643</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/TS-Mobile-003- Update Profile/Negative/TCUP012-Update Name by Adding Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/SC-Mobile-003- Update Profile/Negative/TCUP012-Update Name by Adding Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -53,7 +53,7 @@
       <guid>69274e50-37c9-4f76-9151-a98c69568628</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/TS-Mobile-003- Update Profile/Negative/TCUP013-Update Name by Adding Special Characters</testCaseId>
+      <testCaseId>Test Cases/Mobile/SC-Mobile-003- Update Profile/Negative/TCUP013-Update Name by Adding Special Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -72,14 +72,14 @@
       <guid>43cc5568-56cc-47dc-872b-d97fc621b94b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/TS-Mobile-003- Update Profile/Negative/TCUP018- Update Phone Number with 8 Characters</testCaseId>
+      <testCaseId>Test Cases/Mobile/SC-Mobile-003- Update Profile/Negative/TCUP018- Update Phone Number with 8 Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>18af5bb5-2887-4af8-bedb-39b317d734e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/TS-Mobile-003- Update Profile/Negative/TCUP019- Update Phone Number with 14 Characters</testCaseId>
+      <testCaseId>Test Cases/Mobile/SC-Mobile-003- Update Profile/Negative/TCUP019- Update Phone Number with 14 Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
