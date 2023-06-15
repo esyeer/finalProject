@@ -38,3 +38,5 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profre
 WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/h4_Ooopps seems like your cart is empty'), 
     0)
 
+WebUI.closeBrowser()
+

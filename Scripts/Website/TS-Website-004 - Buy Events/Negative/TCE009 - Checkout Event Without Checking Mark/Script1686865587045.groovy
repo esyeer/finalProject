@@ -35,9 +35,9 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profre
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online event bersertifikat dari prakti_f42b96/Day3_Open'))
 
-WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Day 3 Predict using Machine Learning - Ziyad/btn1_Beli Tiket'))
+WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/btn1_Beli Tiket'))
 
-WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Day 3 Predict using Machine Learning - Ziyad/btn_Lihat Pembelian Saya'))
+WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/btn_Lihat Pembelian Saya'))
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Coding.ID - Cart/kolom_ChecklistDay 3'))
 
@@ -45,4 +45,6 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Coding.ID -
 
 WebUI.verifyElementText(findTestObject('Website/Buy Event/Verify Buy Events/div_Pilih minimal 1 event sebelum checkout'), 
     'Pilih minimal 1 event sebelum checkout')
+
+WebUI.closeBrowser()
 

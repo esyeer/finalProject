@@ -25,7 +25,9 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profre
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online event bersertifikat dari prakti_f42b96/Day3_Open'))
 
-WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Day 3 Predict using Machine Learning - Ziyad/btn3_Beli Tiket'))
+WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/btn3_Beli Tiket'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/txt_Masuk'), 0)
+WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/Failed Buy Event Without Login'), 0)
+
+WebUI.closeBrowser()
 

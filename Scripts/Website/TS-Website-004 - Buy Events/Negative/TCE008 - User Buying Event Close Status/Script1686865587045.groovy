@@ -38,3 +38,5 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online even
 WebUI.verifyElementPresent(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/txt_Pendaftaran Ditutup'), 
     0)
 
+WebUI.closeBrowser()
+
