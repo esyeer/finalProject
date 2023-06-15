@@ -61,7 +61,7 @@ Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), 'syarif hidaya
 
 Mobile.delay(2)
 
-Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), '082189913645', 10)
+Mobile.setText(findTestObject('Mobile/Update Profile/Edit_nama'), '082189913645', 10)
 
 Mobile.delay(2)
 
