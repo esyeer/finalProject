@@ -15,7 +15,7 @@
       <guid>ba274205-138e-4357-8c66-d907a31d8a59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/TS-Web-001- Register/Positive/TCR001-Registration success</testCaseId>
+      <testCaseId>Test Cases/Website/TS-Website-001 - Register/Positive/TCR001-Registration success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>84c97df0-dd2f-49ec-934f-400279fe5ee7</id>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCUP019- Update Phone Number with 14 Characters</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>045ddd38-dfb5-4159-9c80-6dc933559ec5</testCaseGuid>
-</TestCaseEntity>

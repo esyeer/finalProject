@@ -15,7 +15,7 @@
       <guid>dccb11a9-8c13-4d5c-a621-ee73bc8dd385</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/SC-Mobile-001- Register/Positive/TCR001 - Registration Success</testCaseId>
+      <testCaseId>Test Cases/Mobile/TS-Mobile-001 - Register/Positive/TCR001 - Registration Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e0ea35e1-6048-4bd1-94a3-270e6e46ccea</id>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCR017-Register with Field Birthdate Empty</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b0aa0b1e-53fb-46b4-8625-09f9a79b4f3c</testCaseGuid>
-</TestCaseEntity>

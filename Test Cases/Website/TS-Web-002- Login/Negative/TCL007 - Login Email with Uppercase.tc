@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCL007 - Login Email with Uppercase</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>da4d4cdd-e717-45a9-83b4-e2aa43d1b4da</testCaseGuid>
-</TestCaseEntity>
