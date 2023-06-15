@@ -27,7 +27,11 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online even
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/btn3_Beli Tiket'))
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/Failed Buy Event Without Login'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

@@ -21,29 +21,53 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Website/Buy Event/Page_Masuk untuk dapatkan akses di Coding.ID/input_email'), 
     'ragil.irvandi97@gmail.com')
 
+WebUI.takeScreenshot()
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Website/Buy Event/Page_Masuk untuk dapatkan akses di Coding.ID/input_password'), 
     'QgfuYk5Tsdi8mqoM6vPKkQ==')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profressional Talent with Coding.ID/btn_Events'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online event bersertifikat dari prakti_f42b96/Day3_Open'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/btn1_Beli Tiket'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/btn_Lihat Event Lainnya'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online event bersertifikat dari prakti_f42b96/Day4_Open'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Day 4 Workshop - Ziyad/btn2_Beli Tiket'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/h3_add to cart success'), 0)
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/Add Multiple Event to Cart Success'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

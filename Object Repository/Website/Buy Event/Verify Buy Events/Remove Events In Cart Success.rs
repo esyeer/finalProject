@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Ooopps seems like your cart is empty</name>
+   <name>Remove Events In Cart Success</name>
    <tag></tag>
    <elementGuidId>4c9326fe-d1e2-4ff6-b6a0-5bdddcd35303</elementGuidId>
    <selectorCollection>

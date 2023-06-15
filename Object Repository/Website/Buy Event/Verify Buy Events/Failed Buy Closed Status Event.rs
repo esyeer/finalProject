@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_add to cart success</name>
+   <name>Failed Buy Closed Status Event</name>
    <tag></tag>
-   <elementGuidId>143a474c-7ec3-47a3-921b-d7e592a5c67e</elementGuidId>
+   <elementGuidId>1c8037f9-6694-4371-9077-8785509d430b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//h3[@id='info']</value>
+         <value>//span[@id='demo']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#info</value>
+         <value>#demo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
-      <webElementGuid>c5413b5c-9d52-4468-8811-deb877ce8e98</webElementGuid>
+      <value>span</value>
+      <webElementGuid>fb81ccf5-b01f-4c0e-95c8-ec258b833576</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>info</value>
-      <webElementGuid>d7f46ac1-189a-4bad-8d5c-ecb44b43dd40</webElementGuid>
+      <value>demo</value>
+      <webElementGuid>4daeee17-a870-4267-97e0-6ec0fdc69ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>add to cart success</value>
-      <webElementGuid>30a299d4-c424-4a60-a648-3c412dbf6819</webElementGuid>
+      <value>Pendaftaran Ditutup</value>
+      <webElementGuid>c90a2c12-c598-497b-9d61-9e415929e72a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;info&quot;)</value>
-      <webElementGuid>5bcb92f5-6dcc-4758-849c-e9490cc8e12d</webElementGuid>
+      <value>id(&quot;demo&quot;)</value>
+      <webElementGuid>38c67449-78c5-443a-8942-2e270ce8f083</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//h3[@id='info']</value>
-      <webElementGuid>b69c1770-fdb2-45d9-b581-7f85586e24dd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='Modal_Success']/div/div[2]/h3</value>
-      <webElementGuid>55f9984f-a0aa-4568-8b3e-b5219c70f763</webElementGuid>
+      <value>//span[@id='demo']</value>
+      <webElementGuid>f1af03ea-7ed5-429c-8c33-9264a529fd4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[2]/following::h3[1]</value>
-      <webElementGuid>cda93320-746f-4180-80e6-8625b611cecf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zoom'])[1]/following::span[1]</value>
+      <webElementGuid>9fc9f56d-6328-436a-965c-c5246125b807</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 3: Predict using Machine Learning'])[3]/preceding::h3[1]</value>
-      <webElementGuid>0ce4eca6-9426-4907-82f4-9c47754117d0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event lain yang banyak diminati'])[1]/preceding::span[1]</value>
+      <webElementGuid>383a94d4-d68d-47b0-a772-0d79523ef142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='add to cart success']/parent::*</value>
-      <webElementGuid>9780b741-6503-4fe3-9ee9-c58bd681638c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 3: Predict using Machine Learning'])[1]/preceding::span[1]</value>
+      <webElementGuid>1bf046d3-0d5c-41cb-a445-1ddfec946deb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pendaftaran Ditutup']/parent::*</value>
+      <webElementGuid>bca327da-269e-40bd-9529-39eda7dd41c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/h3</value>
-      <webElementGuid>375ff1c3-a61a-4857-ad65-51eb3a09b136</webElementGuid>
+      <value>//li[5]/span</value>
+      <webElementGuid>43f3db65-aee2-4308-b96d-91b3d8cceb75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h3[@id = 'info' and (text() = 'add to cart success' or . = 'add to cart success')]</value>
-      <webElementGuid>ec3897f9-314e-4802-86e0-cb22adcb5efb</webElementGuid>
+      <value>//span[@id = 'demo' and (text() = 'Pendaftaran Ditutup' or . = 'Pendaftaran Ditutup')]</value>
+      <webElementGuid>e70c474a-db8a-4717-96d7-b0bd1a3a89a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

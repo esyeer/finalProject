@@ -41,10 +41,14 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Verify Buy Event
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Coding.ID - Cart/kolom_ChecklistDay 3'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Coding.ID - Cart/btn_Checkout'))
 
-WebUI.verifyElementText(findTestObject('Website/Buy Event/Verify Buy Events/div_Pilih minimal 1 event sebelum checkout'), 
+WebUI.verifyElementText(findTestObject('Website/Buy Event/Verify Buy Events/User Cant Checkout'), 
     'Pilih minimal 1 event sebelum checkout')
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

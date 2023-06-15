@@ -35,8 +35,12 @@ WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profre
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Online event bersertifikat dari prakti_f42b96/Day2_Close'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/txt_Pendaftaran Ditutup'), 
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Website/Buy Event/Verify Buy Events/Failed Buy Closed Status Event'), 
     0)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

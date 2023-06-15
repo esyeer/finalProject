@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Positive Test Case</name>
+   <name>Positive - Test Case</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>85ca54e0-389c-495d-995f-912d50d4e473</testSuiteGuid>
+   <testSuiteGuid>8b90cf67-10f4-4f60-9d44-4fe20b17e74e</testSuiteGuid>
    <testCaseLink>
       <guid>ba274205-138e-4357-8c66-d907a31d8a59</guid>
       <isReuseDriver>false</isReuseDriver>

@@ -21,22 +21,37 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Website/Buy Event/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Website/Buy Event/Page_Masuk untuk dapatkan akses di Coding.ID/input_email'), 
     'ragil.irvandi97@gmail.com')
 
+WebUI.takeScreenshot()
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Website/Buy Event/Page_Masuk untuk dapatkan akses di Coding.ID/input_password'), 
     'QgfuYk5Tsdi8mqoM6vPKkQ==')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Masuk untuk dapatkan akses di Coding.ID/btn_Login'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profressional Talent with Coding.ID/logo_User'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Website/Buy Event/Page_Be a Profressional Talent with Coding.ID/btn_Checkout'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/h4_Ooopps seems like your cart is empty'), 
-    0)
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Website/Buy Event/Verify Buy Events/User Check Cart Success'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

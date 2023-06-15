@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add Multiple Event to Cart Success</name>
+   <tag></tag>
+   <elementGuidId>9ac715c9-4128-454c-8f83-d44c4cf8b399</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[@id='info']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#info</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>5bffebca-9fe3-420e-9929-6ed8955a470e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>info</value>
+      <webElementGuid>444e0847-f5f7-49cb-8714-72c0976e3758</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add to cart success</value>
+      <webElementGuid>764cb5d9-9e2a-4f04-a647-38848f26d317</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;info&quot;)</value>
+      <webElementGuid>70a8c230-0219-4cda-add0-98afb18aae59</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h3[@id='info']</value>
+      <webElementGuid>d99270fe-d0fa-453f-9b61-9a99d9e984aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Modal_Success']/div/div[2]/h3</value>
+      <webElementGuid>1987133e-43f9-47d7-af00-063000b2a1c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[2]/following::h3[1]</value>
+      <webElementGuid>9c771018-6521-4a32-9fe8-f71725ce3f67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Day 4: Workshop'])[4]/preceding::h3[1]</value>
+      <webElementGuid>1343ea17-1b28-403f-91f2-b0e633ce31c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='add to cart success']/parent::*</value>
+      <webElementGuid>233a6be6-f582-454f-b581-bb1ba7574c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h3</value>
+      <webElementGuid>ec3d8722-fab5-481a-9db8-a266b0c1cccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[@id = 'info' and (text() = 'add to cart success' or . = 'add to cart success')]</value>
+      <webElementGuid>1209379c-8241-40f9-bd18-f12a906d5479</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
