@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ACER\\Videos\\Demo_APP_CodingID_1.0.apk', true)
+Mobile.startApplication('Data Files\\DemoAppV2.apk', true)
+
+Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/btn_loginHere'), 0)
+
+Mobile.delay(2)
 
 Mobile.setText(findTestObject('Object Repository/Mobile/Login/field_mail'), 'faceluck04256@gmail.com', 0)
 
@@ -29,19 +33,29 @@ Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Login/Button_Login'), 0)
 
-//Mobile.delay(2)
+Mobile.delay(5)
+
+Mobile.verifyElementNotExist(findTestObject('Object Repository/Mobile/Login/btn_loginHere'), 5)
+
+Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Profile'), 0)
 
-//Mobile.delay(2)
+Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessProfile'), ' Profile ')
+
+Mobile.delay(3)
+
+Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessInformation'), 'Detail Information')
+
+Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Gear_Icon'), 0)
 
-//Mobile.delay(2)
+Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Edit_Profile'), 0)
 
-//Mobile.delay(2)
+Mobile.delay(2)
 
 //Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Name'), "syarif hidayatullah", 0)
 
@@ -53,15 +67,29 @@ Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Pho
 
 //Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Birthdate'), "29-Nov-1998", 0)
 
-//Mobile.delay(2)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 'Clickable', true, 0)
+
+Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 0)
 
-//Mobile.delay(2)
+Mobile.delay(2)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Update Profile/PopUP_SuccessChanges'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/Mobile/Update Profile/Validate_SuccessChanges'), 'Your profile has been successfully updated.')
 
 Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/btn_popUp_Okay'), 0)
 
-Mobile.delay(1)
+Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessProfile'), ' Profile ')
+
+//Mobile.delay(3)
+
+Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessInformation'), 'Detail Information')
+
+Mobile.delay(2)
+
+//Mobile.delay(1)
 
 Mobile.closeApplication()
 
