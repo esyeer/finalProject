@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Bootcamp\\Advanced Class\\DemoAppV2.apk', true)
+Mobile.startApplication('Data Files\\DemoAppV2.apk', true)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
