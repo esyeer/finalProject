@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5feb6596-dee3-4ced-b0b3-a93236e4c1c5</webElementGuid>
+      <webElementGuid>e255d854-ddd5-403c-baa7-bf34f941c4ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>51cca5af-0724-4032-bb49-7dac8e6e6369</webElementGuid>
+      <webElementGuid>126e4395-1a20-4a74-8058-1daead44b304</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>91bb7a0d-4df8-45c6-b5ad-3bc1586dd7db</webElementGuid>
+      <webElementGuid>0f8955fa-2b02-4c50-8043-ba47fe8a143c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control </value>
-      <webElementGuid>aec55a93-c7b7-4082-aa37-d67ddc2d016d</webElementGuid>
+      <webElementGuid>d93cc734-3155-4547-9f36-08b2ed01643e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Ragil Irvandi</value>
-      <webElementGuid>56891bf7-b47c-4c08-b31e-719e1f26f8c7</webElementGuid>
+      <webElementGuid>33687a66-e44c-4620-9959-e699a4ee35a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card author-box&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-6&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;py-4&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>5ca56248-a3c4-47d2-8b61-470bf9e3f4e4</webElementGuid>
+      <webElementGuid>e735e338-ae53-456a-8d8b-aa525ac1d564</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='name']</value>
-      <webElementGuid>58d38dda-cc2f-4c40-879c-88c01818e4a0</webElementGuid>
+      <webElementGuid>fb0eeb17-b38a-4c97-8cd2-4b34f887c385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]/div/input</value>
-      <webElementGuid>327b04ea-3b5f-4412-b2a8-c7294332b90f</webElementGuid>
+      <webElementGuid>f093ddd8-0ccb-4905-bd25-75eb4e98055c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>e6486d2e-127a-4b4c-9d2d-b6658e1a70ff</webElementGuid>
+      <webElementGuid>22e7d6f1-19b2-4b01-a36f-7645b7d0f3c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,38 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'name']</value>
-      <webElementGuid>0d3f884d-ab93-4c99-982a-bc3432b78e7e</webElementGuid>
+      <webElementGuid>513e5242-0d4b-452a-ad7d-3738e4e04676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='whatsapp']</value>
+      <webElementGuid>f47a5aa2-6686-4884-8ffe-cc23a6f2ad32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]/div[3]/input</value>
+      <webElementGuid>ba308f4b-fb51-4c98-936c-f7bf877e7f81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+      <webElementGuid>c96c5111-24a1-40c5-a50b-45ad1f3a978d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'whatsapp']</value>
+      <webElementGuid>62034b3e-78af-488b-92cd-9f7411db24fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

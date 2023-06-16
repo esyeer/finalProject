@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6d221d0f-c9a3-45eb-96f4-02dc399d9424</webElementGuid>
+      <webElementGuid>f570799b-de38-44cb-a221-3916a325edcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>buttonLoginTrack</value>
-      <webElementGuid>3a137596-2f46-4b94-aa6d-2b1e4d0b0b59</webElementGuid>
+      <webElementGuid>16fbd287-1dbb-4f3d-90ea-e0aed59b3b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>495cddbe-7bfc-42ee-b1d5-d645c203ac0e</webElementGuid>
+      <webElementGuid>ee9064cf-6165-42f4-96ea-ead06b4b41f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-lg btn-block</value>
-      <webElementGuid>1d365036-ca4e-4948-ad23-5be431eadd7d</webElementGuid>
+      <webElementGuid>89eb6d46-8a3e-405a-8d78-5e9bbee466a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>4</value>
-      <webElementGuid>41230c99-ecf6-416d-aef4-8a3608674867</webElementGuid>
+      <webElementGuid>cd0b7206-6c3a-4320-96a9-30578969b87f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,7 +64,7 @@
       <value>
                                                         Login
                                                     </value>
-      <webElementGuid>5fae14de-c40d-4a15-a8be-a705dfd71f3c</webElementGuid>
+      <webElementGuid>de2c8631-9794-47fb-bd9f-f33f6491caf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;buttonLoginTrack&quot;)</value>
-      <webElementGuid>3583be86-ccde-49b3-99ff-4cf61e3a5f2b</webElementGuid>
+      <webElementGuid>f7468551-85d5-4a9c-885d-8edcf30aa000</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='buttonLoginTrack']</value>
-      <webElementGuid>de3c77bd-a37a-497a-af0a-b2029a8696e6</webElementGuid>
+      <webElementGuid>57b4f50f-c0c1-45dc-a4c5-ad6f0a758470</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>c08d4f41-dfc6-401c-baa3-9d1dba88bc3e</webElementGuid>
+      <webElementGuid>d70a4e2f-bfb3-49f6-bfaf-b5815e5a2c62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa kata sandi ?'])[1]/preceding::button[2]</value>
-      <webElementGuid>5df90cf5-7bd6-45e0-bd54-eccf219de075</webElementGuid>
+      <webElementGuid>6363c233-c966-4690-a8bd-aae139dfe97e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button</value>
-      <webElementGuid>944ed562-39a2-451a-950f-37b21e79dc30</webElementGuid>
+      <webElementGuid>4f38d2ff-57b4-4178-a34c-987421493da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +116,6 @@
                                                     ' or . = '
                                                         Login
                                                     ')]</value>
-      <webElementGuid>7e7f2672-f829-423d-b244-2f100e8a2eef</webElementGuid>
+      <webElementGuid>bf17f125-f3c2-4df8-9a34-ba960637cb0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

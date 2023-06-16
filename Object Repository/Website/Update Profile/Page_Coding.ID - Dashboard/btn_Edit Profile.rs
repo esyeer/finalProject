@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2114a5bf-5e55-4c59-9a59-1f3329730ba4</webElementGuid>
+      <webElementGuid>ea18b723-79dc-4303-9982-c685c712aae5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/dashboard/profile/edit</value>
-      <webElementGuid>c29fde56-044f-4d9a-9d52-6deb83460286</webElementGuid>
+      <webElementGuid>d8387256-9f61-4c41-aa93-06ad033e1af7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit Profile </value>
-      <webElementGuid>06a724c7-af24-40a0-a1a3-b82452be5547</webElementGuid>
+      <webElementGuid>66ff2d1d-4265-4365-8464-8b7f8849f75a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row mt-4 align-items-end&quot;]/div[@class=&quot;col-lg-4 col-md-4 col-sm-12 text-center&quot;]/div[@class=&quot;text-white mb-3&quot;]/a[1]</value>
-      <webElementGuid>9542e094-7e93-4023-8695-664e1aab9378</webElementGuid>
+      <webElementGuid>e718f322-9462-4714-875a-964584950101</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div[3]/div/a</value>
-      <webElementGuid>13d8a9f7-9733-478d-b949-9f09d1bc6ee0</webElementGuid>
+      <webElementGuid>f15e3653-69cc-49ca-a711-481d1d184018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Edit Profile')]</value>
-      <webElementGuid>ea0fb8b7-0927-49b3-85b2-7189759d261a</webElementGuid>
+      <webElementGuid>5bf0b955-c180-4874-b670-3070ffd13a14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='content_copy'])[1]/following::a[1]</value>
-      <webElementGuid>7ae60de1-a569-4ce3-b554-d7b74eb76322</webElementGuid>
+      <webElementGuid>55e7aa6f-aa97-4a47-a979-676c98f82b5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/preceding::a[1]</value>
-      <webElementGuid>d64a8322-e1e9-43b4-ae0a-3921758dd811</webElementGuid>
+      <webElementGuid>cefe89c6-0e2f-424d-820e-bb8f0e5fd6f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail Information'])[1]/preceding::a[2]</value>
-      <webElementGuid>caae593a-0720-4101-a629-4ad6e6fc988e</webElementGuid>
+      <webElementGuid>f747fbf8-abf9-4395-b065-6245fbcbc9cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit Profile']/parent::*</value>
-      <webElementGuid>238a1f0c-991f-42ff-af54-d92c9148d1d3</webElementGuid>
+      <webElementGuid>4210217e-4b64-40a4-a04a-592d46719d04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/dashboard/profile/edit')]</value>
-      <webElementGuid>f0e4f406-6977-470e-b19f-34177d8053a4</webElementGuid>
+      <webElementGuid>16a2f4aa-96a1-4dc0-8285-52365743bc89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/a</value>
-      <webElementGuid>53b38fb2-9012-4ebb-9bba-687a9cbc5d50</webElementGuid>
+      <webElementGuid>762b8165-e43d-4341-946d-c7fde8fd432c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/dashboard/profile/edit' and (text() = 'Edit Profile ' or . = 'Edit Profile ')]</value>
-      <webElementGuid>75bb06f4-bbce-47d8-a16c-a1f80a3654aa</webElementGuid>
+      <webElementGuid>4d246da9-c545-4529-9cd0-b5b773b551dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

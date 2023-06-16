@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/input_Name'), 'Test Data FP')
+WebUI.setText(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/input_Name'), '')
 
 WebUI.takeScreenshot()
 
@@ -65,7 +65,9 @@ WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('Website/Update Profile/Verify Update Profile/Change Name Success'), 0)
+WebUI.verifyTextPresent('The whatsapp field is required', false)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

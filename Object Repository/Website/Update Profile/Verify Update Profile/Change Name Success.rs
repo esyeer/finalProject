@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Profil</name>
+   <name>Change Name Success</name>
    <tag></tag>
-   <elementGuidId>e2d9e244-9c3e-4577-b905-2f373420e6a1</elementGuidId>
+   <elementGuidId>e57c46ff-00d4-4083-834e-a8e18e5e88f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//aside[@id='sidebar-wrapper']/ul/li[4]/a/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Coding.ID'])[2]/following::div[7]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.swal-title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>6066e91b-ceed-45d4-a54a-6022f9c77585</webElementGuid>
+      <value>div</value>
+      <webElementGuid>71e3f3ff-451e-46af-b5a8-f5322e512b5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal-title</value>
+      <webElementGuid>a0d4ec4d-0d43-4ab5-8b01-da7f2b0d1265</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Profil</value>
-      <webElementGuid>671e19ad-2254-436c-a7f5-40cbbf8100a4</webElementGuid>
+      <value>Berhasil</value>
+      <webElementGuid>f576c1d9-f546-44af-b292-5b2fcf171dc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;nav-link&quot;]/span[1]</value>
-      <webElementGuid>80490eae-1ae2-4330-9762-52189daed0c5</webElementGuid>
+      <value>/html[1]/body[@class=&quot;light light-sidebar theme-white&quot;]/div[@class=&quot;swal-overlay swal-overlay--show-modal&quot;]/div[@class=&quot;swal-modal&quot;]/div[@class=&quot;swal-title&quot;]</value>
+      <webElementGuid>4f61ba5f-a032-4ae6-978c-c8a58fd7a0b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//aside[@id='sidebar-wrapper']/ul/li[4]/a/span</value>
-      <webElementGuid>c0458d34-02ec-40aa-895a-f0fc34b1da0a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coding.ID'])[2]/following::div[7]</value>
+      <webElementGuid>1f498005-e805-4420-86b2-55742cd7833f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Info'])[1]/following::span[1]</value>
-      <webElementGuid>b7a60aad-37dd-429b-86b0-1cb5c0cc4555</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::div[8]</value>
+      <webElementGuid>3fe4ea4e-d2db-40eb-beec-30f27c5a01b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
-      <webElementGuid>7e08c7f4-2a41-48a5-a82c-a9dc0f5a307c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Data FP telah di edit'])[1]/preceding::div[1]</value>
+      <webElementGuid>92cf4442-291d-44a1-93b2-03e84828a37b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Account'])[1]/preceding::span[1]</value>
-      <webElementGuid>e022b470-1eb6-49ff-95a4-b5efbb3375c3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[2]</value>
+      <webElementGuid>43d21e33-5ca5-4e73-8f6d-bbc59b75fbb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/preceding::span[2]</value>
-      <webElementGuid>4089fde9-e91d-4601-888b-7eac2fce3858</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Profil']/parent::*</value>
-      <webElementGuid>8e3bcc8b-5de9-4942-9c55-3d21045d0cfd</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Berhasil']/parent::*</value>
+      <webElementGuid>ebb8b658-5b26-4281-8b79-f81779d01a42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a/span</value>
-      <webElementGuid>6589624b-61ba-42c7-bd33-e7f46af7b7df</webElementGuid>
+      <value>//div[3]/div/div[2]</value>
+      <webElementGuid>4e187ec9-8eb8-40a8-9739-686f31c68450</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Profil' or . = 'Profil')]</value>
-      <webElementGuid>65b9032f-7395-4e78-a371-18c04b1b2a46</webElementGuid>
+      <value>//div[(text() = 'Berhasil' or . = 'Berhasil')]</value>
+      <webElementGuid>23e99009-a140-4913-a0ca-eb5fe1facc1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

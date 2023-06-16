@@ -21,45 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/btn_Masuk'))
-
-WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Website/Update Profile/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email'), 
     'ragil.irvandi97@gmail.com')
 
-WebUI.takeScreenshot()
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Website/Update Profile/Page_Masuk untuk dapatkan akses di Coding.ID/input_Password'), 
     'QgfuYk5Tsdi8mqoM6vPKkQ==')
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
-
-WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/Logo_User'))
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/btn_My Account'))
-
-WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Profil'))
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Edit Profile'))
 
-WebUI.takeScreenshot()
-
 WebUI.setText(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/input_Name'), 'Test Data FP')
-
-WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Save Changes'))
 

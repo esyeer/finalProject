@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>00ab15b7-e7b6-4e6b-8fd4-8074a9eebe53</webElementGuid>
+      <webElementGuid>e97b3dc2-6f05-4c4e-8788-81abe819942a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/dashboard</value>
-      <webElementGuid>11f20235-f410-47bd-9451-8ad666c58035</webElementGuid>
+      <webElementGuid>8469487e-8271-416f-998c-462c2f276565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <type>Main</type>
       <value>My Account
                                                                 </value>
-      <webElementGuid>eabb4d3c-1f43-482f-9890-53edb14f6d99</webElementGuid>
+      <webElementGuid>aca651e8-a29d-4422-9719-2eb382db389e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;___class_+?26___&quot;]/ul[@class=&quot;wm-dropdown-menu&quot;]/li[3]/a[1]</value>
-      <webElementGuid>cfce6528-a03f-4353-ada7-76736805bce5</webElementGuid>
+      <webElementGuid>e52d8a9d-1407-4ce3-9686-350753d2b2d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[3]/a</value>
-      <webElementGuid>c6fe132f-c08d-4353-b154-d4ee46d64759</webElementGuid>
+      <webElementGuid>822338ee-da54-47c0-9f52-6a6d6aa1491a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'My Account')]</value>
-      <webElementGuid>d492ca07-13e4-403f-aa44-205ea7ff3b90</webElementGuid>
+      <webElementGuid>99405984-4ffd-4517-8d65-55c047e9cfdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::a[1]</value>
-      <webElementGuid>d22be55c-f3cf-48eb-b431-70b53878ad8f</webElementGuid>
+      <webElementGuid>53c05e6a-3683-4300-8da0-40a0a156df33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[1]</value>
-      <webElementGuid>4a7f6960-2e72-4aa2-a60b-135eba828760</webElementGuid>
+      <webElementGuid>99cbced0-1fe6-4ade-86e1-ce239f587cff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::a[3]</value>
-      <webElementGuid>2c8b2801-5e1d-42d6-9770-cb12d1fa04e9</webElementGuid>
+      <webElementGuid>9a1d4cbb-0253-4cf7-9a7f-42527d33a5ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My Account']/parent::*</value>
-      <webElementGuid>57da2b73-f12b-4bdf-9b15-b2c8fc8de255</webElementGuid>
+      <webElementGuid>d7e7bef9-3e24-485b-a20f-75ffc8ac54fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/dashboard')])[2]</value>
-      <webElementGuid>a6a19d58-f6e9-448b-aff1-8a940ff0f5bc</webElementGuid>
+      <webElementGuid>98b7a637-db55-4331-985e-d6facee9a6b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[7]/ul/li[3]/a</value>
-      <webElementGuid>9982640b-201f-4012-8775-b3b1cfc14d3b</webElementGuid>
+      <webElementGuid>36c43250-e054-456b-8d85-05ef918b92b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <value>//a[@href = '/dashboard' and (text() = 'My Account
                                                                 ' or . = 'My Account
                                                                 ')]</value>
-      <webElementGuid>a344f442-6425-46bd-bd16-f212dc1c624a</webElementGuid>
+      <webElementGuid>0084cf09-5d00-4e9e-8c9e-9b40a3b7c161</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
