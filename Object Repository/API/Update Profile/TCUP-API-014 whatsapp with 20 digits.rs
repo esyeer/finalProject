@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>TCUP-API-014 whatsapp with 13 digits</name>
+   <name>TCUP-API-014 whatsapp with 20 digits</name>
    <tag></tag>
    <elementGuidId>b5644db6-63db-4cc9-a44d-772881d8e05e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>false</autoUpdateContent>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiOWQ5YTAxZTBlM2JiNDRlODdiMzdkMzk4MjMyYjY0NGE1YWNhNzIwZDAyYjFjOTIxYWM2NWI3ZmU2NmE3MTA3MGU2OTc5Mjc2MjFiZmYzOTQiLCJpYXQiOjE2ODY4OTM3NDIuNTU0NTA1LCJuYmYiOjE2ODY4OTM3NDIuNTU0NTExLCJleHAiOjE3MTg1MTYxNDIuNTQ5NzgxLCJzdWIiOiI1ODIiLCJzY29wZXMiOltdfQ.E-UpfR6nCiqKLc5ESxsaj0s_SMEEhX6Onr-mtYiU5m1To5vcAnPWqfp6GotdvwI3aOVb_yRXqprw33cq6mfu0IspA6kHi33ZcVziPO65o537hctMYpH-_6l3NRU4yDongdlkRMeCaoGdPt01s4xO2ea-gwb0TrLrnQDEcmR_6PyhBH-4H_5lz9yoGtZc2kLUu67iLj93C-JRavYpbXbm2gYitHtsbcNQG7CK68EyISdbRRW_3qbV8WvHsmRxa8dLsnCQzxrm9xJi6HIuy5JsWYF7Q9AAXS6fPXIwg0fsyKtvcPCAkxlS4n9WvpJBRhQJO9_mseLlatEWcqEFrik_kDSNRsTtRIVi0bAyCz5kWdzkVmWIKtEx1AIVur91nBXyUA_wV64Uu5VS68EgKQ8Q0A2fb3fXJ2TFTVWMLgLI7Ql0vcqszGz4rch6GRHVo7PZ2yPqw1MQAAlu9xGwOw4Gn98vhOrx693sTJGG3dfWrBR6xamoDwK6Ladvxx26Ro6UEPIzd70pqRR4B-2PEhnHrkDh01Oe0aKCtIQjr0xiiW1FLlwIWCjGEVjAjQhllV_u2W3BBymWI92jI7O8nAlndKmT6ucApZ9YwZZyiHM4UIfM3r98DYUM1jnGtPahZjvWRWkaGnIBqAjEUBFIh7ZAau-N4R1WxhQbr01wq44g2T4</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -16,7 +25,7 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;whatsapp&quot;,
-      &quot;value&quot;: &quot;1234567890123&quot;,
+      &quot;value&quot;: &quot;12345678901234567890&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -44,8 +53,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYWZkZjY4ZDFjM2U5Y2E3YTQ5M2M0MjI0ZDMzMTc2NmU4YjdiNDFlYTNjMTI3NmQ2OGIyNjJkMTQ5MjQ0MzMyMTg5NDU2Y2M3NzQ0Yjg5Y2MiLCJpYXQiOjE2ODY2NzE2OTYuMDUzNDc0LCJuYmYiOjE2ODY2NzE2OTYuMDUzNDc2LCJleHAiOjE3MTgyOTQwOTYuMDUyMjQsInN1YiI6IjU4MiIsInNjb3BlcyI6W119.kTHD7Z30yS9-PYqYV9OiNmqi_KSQHX0xP9otNkS_7zRnEDBCziPFNZq-lYOOEnO1_MzRm0pOQY1UtMujtOVyawumlt9dynkodyObNwyxB30pEUsPeWO5T4HgU-ZgNEQ0JNJO8e-lGutSI-XfHlKuciUWlxGPGIg4j43GBCMoLW7LUgbmYdjuJIq_xEZtfeak6sXAEiCZoCWAKLyIAwq-syldBcf7dmtYKQ5uGZv5U90K2vjb8HtpCgqIB_9O2xhIbFgRsHU329LatVrlpul98edjvNmXgwpNzxE5RQWOUnoOG-v2SovNxGvxUGDJ0Drq6Vizdnf9mj2Li3zT7WdpOtt4-N9nHNs7Rtf-ay5B_kFEvmHYuaDeAoDs0SChHSxOzA_N5UmDLdcuGxfJ2bjXbw_Z4Qr3WFOtOTE-L5ZAvBryZj7wKd0TiyZKgnVuivfahJ-8vqGeRlRDToSBdSQvJD1O4CkF4ja5pCdI0GpWr2Y9M83hvlt9axLFn48sMqu0FINPWe6sOV3Al0kGO9cVSc-FvSFFf5kBKbGPdhoHLoAaIO5Pp4ivOLbQ9183L7Eq3fe6epWFLJZ5sOwOGY6STJW4dwZdVhAIOHxU-tyM0cnCg6v-RFAj0S2BV5spH-l9IAZK9BAMQqzACvWLTBHdXBO9pmsUkyNHvvyPeNVGC54</value>
-      <webElementGuid>5d5d69a2-22ed-4c17-8e2a-3fc8f327b3d9</webElementGuid>
+      <value>Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiOWQ5YTAxZTBlM2JiNDRlODdiMzdkMzk4MjMyYjY0NGE1YWNhNzIwZDAyYjFjOTIxYWM2NWI3ZmU2NmE3MTA3MGU2OTc5Mjc2MjFiZmYzOTQiLCJpYXQiOjE2ODY4OTM3NDIuNTU0NTA1LCJuYmYiOjE2ODY4OTM3NDIuNTU0NTExLCJleHAiOjE3MTg1MTYxNDIuNTQ5NzgxLCJzdWIiOiI1ODIiLCJzY29wZXMiOltdfQ.E-UpfR6nCiqKLc5ESxsaj0s_SMEEhX6Onr-mtYiU5m1To5vcAnPWqfp6GotdvwI3aOVb_yRXqprw33cq6mfu0IspA6kHi33ZcVziPO65o537hctMYpH-_6l3NRU4yDongdlkRMeCaoGdPt01s4xO2ea-gwb0TrLrnQDEcmR_6PyhBH-4H_5lz9yoGtZc2kLUu67iLj93C-JRavYpbXbm2gYitHtsbcNQG7CK68EyISdbRRW_3qbV8WvHsmRxa8dLsnCQzxrm9xJi6HIuy5JsWYF7Q9AAXS6fPXIwg0fsyKtvcPCAkxlS4n9WvpJBRhQJO9_mseLlatEWcqEFrik_kDSNRsTtRIVi0bAyCz5kWdzkVmWIKtEx1AIVur91nBXyUA_wV64Uu5VS68EgKQ8Q0A2fb3fXJ2TFTVWMLgLI7Ql0vcqszGz4rch6GRHVo7PZ2yPqw1MQAAlu9xGwOw4Gn98vhOrx693sTJGG3dfWrBR6xamoDwK6Ladvxx26Ro6UEPIzd70pqRR4B-2PEhnHrkDh01Oe0aKCtIQjr0xiiW1FLlwIWCjGEVjAjQhllV_u2W3BBymWI92jI7O8nAlndKmT6ucApZ9YwZZyiHM4UIfM3r98DYUM1jnGtPahZjvWRWkaGnIBqAjEUBFIh7ZAau-N4R1WxhQbr01wq44g2T4</value>
+      <webElementGuid>0fec97c7-0589-4df4-ba63-0f4f757555a5</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
