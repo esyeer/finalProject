@@ -25,21 +25,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>146f0742-4f88-41c3-88f7-8e4291cfb9d5</guid>
+      <guid>cef0eb97-89f4-4f6d-835c-0ab1b5d9c510</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/TS-Mobile-001 - Register/Positive/TCR002 - WhatsApp With 9 Character</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7678a5ba-712f-454d-9595-2c52a59a54cd</guid>
+      <guid>a170afef-082b-4f69-9ca1-ecf3983c14fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/TS-Mobile-001 - Register/Positive/TCR003 - WhatsApp With 13 Character</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e66ec8c6-4e17-4b42-8231-c679c84e6d1a</guid>
+      <guid>4777a7da-1e83-474a-9637-2a52ebb5cf5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Mobile/TS-Mobile-001 - Register/Positive/TCR005 - Set Birthday 6 Years Old</testCaseId>

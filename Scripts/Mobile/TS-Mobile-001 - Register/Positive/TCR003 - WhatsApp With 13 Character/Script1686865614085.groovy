@@ -53,7 +53,7 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Register/btn- OK'), 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Mobile/Register/txt-Email'), ragil.irvandi97@gmail.com, 0)
+Mobile.setText(findTestObject('Mobile/Register/txt-Email'), 'fptestdata@gmail.com', 0)
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
