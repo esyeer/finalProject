@@ -11,4 +11,11 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>998332ad-a653-47cd-9a13-47c5b53e50fb</testSuiteGuid>
+   <testCaseLink>
+      <guid>0d76a849-4bd0-4f75-968a-acbfbc167459</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/TS-Mobile-001 - Login/Positive/TCL001 - Login With Valid Data</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -58,16 +58,13 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/Edit_Profile'
 Mobile.delay(2)
 
 //Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Name'), "syarif hidayatullah", 0)
+//Mobile.delay(2)
+Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), '082189913', 0)
 
 //Mobile.delay(2)
-
-Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Phone'), "082189913", 0)
-
-//Mobile.delay(2)
-
 //Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Birthdate'), "29-Nov-1998", 0)
-
-Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 'Clickable', true, 0)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 'clickable', 
+    'true', 0)
 
 Mobile.delay(2)
 
@@ -84,12 +81,10 @@ Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/btn_popUp_Oka
 Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessProfile'), ' Profile ')
 
 //Mobile.delay(3)
-
 Mobile.verifyElementText(findTestObject('Mobile/Update Profile/ValidateSuccessInformation'), 'Detail Information')
 
 Mobile.delay(2)
 
 //Mobile.delay(1)
-
 Mobile.closeApplication()
 

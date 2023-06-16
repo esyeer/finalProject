@@ -65,17 +65,18 @@ Mobile.setText(findTestObject('Mobile/Update Profile/Field_Phone'), '08218991364
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/field_tgal'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/android.widget.EditText - 15-Mar-2016'), 0)
 
-Mobile.tap(findTestObject('Mobile/Update Profile/btn_pilihTahun'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/android.widget.TextView - 2016'), 0)
 
-Mobile.scrollToText('1998')
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/android.widget.TextView - 2010'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/tap_tahun'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/android.view.View - 15'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/pilih_tgl'), 0)
+Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/android.widget.Button - OKE'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile/Update Profile/btn-Oktgl'), 0)
+Mobile.verifyElementAttributeValue(findTestObject('Object Repository/Mobile/Update Profile/Button_Save Changes'), 'clickable',
+	'true', 0)
 
 //Mobile.setText(findTestObject('Object Repository/Mobile/Update Profile/Field_Birthdate'), '29-Nov-1998', 0)
 Mobile.delay(2)
