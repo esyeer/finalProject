@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
+WebUI.maximizeWindow()
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Website/Register/Page_Be a Profressional Talent with Coding.ID/button_Buat Akun'))
@@ -65,6 +67,8 @@ WebUI.delay(2)
 
 WebUI.verifyElementAttributeValue(findTestObject('Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_name'), 
     'value', '', 10)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
 
 WebUI.delay(2)
 

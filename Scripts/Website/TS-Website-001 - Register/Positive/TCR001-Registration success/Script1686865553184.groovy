@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://demo-app.coding.id')
+WebUI.navigateToUrl('http://demo-app.online')
 WebUI.maximizeWindow()
 WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Website/Register/Page_Be a Profressional Talent with Coding.ID/button_Buat Akun'))

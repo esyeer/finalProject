@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
-
+WebUI.maximizeWindow()
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Website/Register/Page_Be a Profressional Talent with Coding.ID/button_Buat Akun'))
@@ -67,7 +67,7 @@ WebUI.delay(2)
 WebUI.verifyElementAttributeValue(findTestObject('Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/input_birth_date'), 
     'value', '', 10)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/validate_birthdateEmpty'), "Wajib di isi")
+WebUI.verifyElementText(findTestObject('Object Repository/Website/Register/Page_Buat akun dan dapatkan akses di Coding.ID/validate_birthdateEmpty'), "Wajib di isi.")
 
 WebUI.delay(2)
 
