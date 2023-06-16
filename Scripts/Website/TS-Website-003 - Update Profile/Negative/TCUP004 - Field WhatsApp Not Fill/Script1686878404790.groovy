@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/input_Name'), '')
+WebUI.setText(findTestObject('Website/Update Profile/Page_Coding.ID - Dashboard/input_WhatsApp'), '')
 
 WebUI.takeScreenshot()
 

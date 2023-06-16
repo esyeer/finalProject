@@ -68,5 +68,7 @@ WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(findTestObject('Website/Update Profile/Verify Update Profile/Change Profile Success'), 0)
 
+WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 
