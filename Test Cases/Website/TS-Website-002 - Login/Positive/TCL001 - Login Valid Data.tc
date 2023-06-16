@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCL001 - Login Valid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c17d848-c99a-4f98-92e3-dfe7c31d846f</testCaseGuid>
+</TestCaseEntity>

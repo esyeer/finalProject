@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCL013 - Login With Space In Front Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03cd031f-d4ec-4a68-8d2e-39c7e6ae1397</testCaseGuid>
+</TestCaseEntity>

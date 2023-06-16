@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCL-API-004- Login With Missing Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c09b2fd3-f545-489a-92ac-9299d490ca0d</testCaseGuid>
+</TestCaseEntity>

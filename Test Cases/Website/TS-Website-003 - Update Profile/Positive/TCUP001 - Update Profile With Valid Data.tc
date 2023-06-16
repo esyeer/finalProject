@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCUP001 - Update Profile With Valid Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0202e3f-b62c-4753-947a-19957643470b</testCaseGuid>
+</TestCaseEntity>

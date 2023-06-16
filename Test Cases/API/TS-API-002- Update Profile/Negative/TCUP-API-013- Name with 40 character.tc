@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Requirement Maksimal Nama 30 Character</description>
+   <name>TCUP-API-013- Name with 40 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e38eefa-3cc9-46e5-b3db-eef0e55c9c87</testCaseGuid>
+</TestCaseEntity>

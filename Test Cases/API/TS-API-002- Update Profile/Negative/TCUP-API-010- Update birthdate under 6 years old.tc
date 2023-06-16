@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCUP-API-010- Update birthdate under 6 years old</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f96b0919-6ded-47f2-bd61-53fe428308f5</testCaseGuid>
+</TestCaseEntity>
