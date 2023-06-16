@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>de22fd59-c4b2-4239-a170-b81b542a641f</webElementGuid>
+      <webElementGuid>3c5b9600-026f-47b7-a622-7055837feb41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Profil</value>
-      <webElementGuid>d9c596d9-e504-4ac9-83e1-6d509ed69aba</webElementGuid>
+      <webElementGuid>b336db9c-43f5-4b96-b8c7-c62fa9d73f51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-menu&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;nav-link&quot;]/span[1]</value>
-      <webElementGuid>64068484-be43-49c4-abd7-79cb75543352</webElementGuid>
+      <webElementGuid>f26d3e32-9766-4807-a43b-ce3f2b98a374</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//aside[@id='sidebar-wrapper']/ul/li[4]/a/span</value>
-      <webElementGuid>2017eaf0-c745-4caf-83e4-80ccf82abd07</webElementGuid>
+      <webElementGuid>a310e33b-332c-486b-acfe-14b02ada3a1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic Info'])[1]/following::span[1]</value>
-      <webElementGuid>a66023f0-0063-4ac4-97fe-2718d0d98ccb</webElementGuid>
+      <webElementGuid>2e9b100a-32dd-49e3-9d45-6336772a2783</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[1]</value>
-      <webElementGuid>2d8243be-ca22-4625-b4c9-8690c547cb1b</webElementGuid>
+      <webElementGuid>b7925ae5-0f79-4681-b925-c4bf3b2e29fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing Account'])[1]/preceding::span[1]</value>
-      <webElementGuid>f22a4121-9e55-4528-93f5-1d1bac2774a1</webElementGuid>
+      <webElementGuid>d6a07bdd-b655-4be4-906c-78ce021ad629</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction'])[1]/preceding::span[2]</value>
-      <webElementGuid>2c5e6f4f-a1c1-49a0-a8d5-393bab28e10e</webElementGuid>
+      <webElementGuid>bbc4de23-beda-40f4-b675-092538d8bfc9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Profil']/parent::*</value>
-      <webElementGuid>7526d37f-c06a-442e-aeae-997764e675fa</webElementGuid>
+      <webElementGuid>0e137198-c42e-4c92-82c8-d0bbb35816cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a/span</value>
-      <webElementGuid>bc3efa3c-f9b8-4d78-8c05-b82f94680aa3</webElementGuid>
+      <webElementGuid>e7f8b26a-acd3-4686-95f8-4abc27b3f308</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Profil' or . = 'Profil')]</value>
-      <webElementGuid>dfb4034b-4e0b-495b-bc30-f5cdf1946cc6</webElementGuid>
+      <webElementGuid>08fe20e4-93db-4d08-a689-f570696fc7ea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

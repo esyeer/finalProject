@@ -9,13 +9,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f67ae368-1ac3-473c-923b-bede6294273d</variableId>
+      <variableId>e5d51130-1b92-4936-8497-19abc55b54a4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f67ae368-1ac3-473c-923b-bede6294273d</id>
+      <id>e5d51130-1b92-4936-8497-19abc55b54a4</id>
       <masked>false</masked>
-      <name>photo</name>
+      <name>Link</name>
    </variable>
 </TestCaseEntity>

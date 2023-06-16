@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Kontak_fas fa-user-alt</name>
+   <name>Logo_User</name>
    <tag></tag>
    <elementGuidId>5246c79a-c006-4591-a81f-a35bf47d0a29</elementGuidId>
    <selectorCollection>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>007440e4-0c39-4c35-8160-fd944f4655a8</webElementGuid>
+      <webElementGuid>5e8a1287-773e-4682-ab2c-3a3fd81bc976</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fas fa-user-alt</value>
-      <webElementGuid>1e560752-613e-426d-9b21-0329b85a7d15</webElementGuid>
+      <webElementGuid>ffe3dcd1-a6ed-4c76-81d3-e94a9131ffd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;___class_+?26___&quot;]/a[1]/i[@class=&quot;fas fa-user-alt&quot;]</value>
-      <webElementGuid>1c580130-7d64-45e6-9988-d8edc60f7da6</webElementGuid>
+      <webElementGuid>b8ab2bc9-f8ee-4ecf-8e7b-6b69f9086347</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
-      <webElementGuid>7fd8bc49-ee11-49b9-a65c-8ee90f2fad72</webElementGuid>
+      <webElementGuid>26c64e3b-64bd-4559-badd-87eb3478ff1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/i</value>
-      <webElementGuid>bff3b5b3-c9d1-4a34-8f64-46192e8b47c2</webElementGuid>
+      <webElementGuid>2f1a50e4-9998-4903-abb1-aa1c75854fa2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

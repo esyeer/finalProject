@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Website/Update Profile/
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
 
-WebUI.click(findTestObject('Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/Logo_User'))
+WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/Logo_User'))
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/btn_My Account'))
 
@@ -39,8 +39,8 @@ WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Edit Profile'))
 
-WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/img_Invoice_avatar-icon'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/input_Name'), 
+    'Test Data FP')
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Save Changes'))
 
