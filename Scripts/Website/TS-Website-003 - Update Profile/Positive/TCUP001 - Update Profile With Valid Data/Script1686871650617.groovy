@@ -31,13 +31,16 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Website/Update Profile/
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
 
+WebUI.click(findTestObject('Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt'))
+
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Be a Profressional Talent with Coding.ID/btn_My Account'))
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Profil'))
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Edit Profile'))
 
-WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/img_Invoice_avatar-icon'))
+WebUI.uploadFile(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/img_Invoice_avatar-icon'), 
+    photo)
 
 WebUI.click(findTestObject('Object Repository/Website/Update Profile/Page_Coding.ID - Dashboard/btn_Save Changes'))
 
