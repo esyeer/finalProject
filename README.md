@@ -1,6 +1,5 @@
 # Final Project: Automation Testing with Katalon Studio
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+ 
 Proyek ini adalah solusi automasi testing menggunakan **Katalon Studio** untuk tiga platform: **Android**, **Website**, dan **API**. Fokus utama proyek ini adalah mengotomatisasi pengujian fitur-fitur kritis seperti **Login**, **Register**, **Buy Event**, dan **Update Profile** pada website dan aplikasi `coding.id`.
 
 ## Fitur yang Diuji
@@ -102,9 +101,6 @@ Kontribusi sangat diterima! Jika Anda ingin berkontribusi pada proyek ini, silak
 4. Push ke branch (`git push origin fitur-baru`).
 5. Buat Pull Request.
 
-## Lisensi
-
-Proyek ini dilisensikan di bawah lisensi **MIT**. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ## Kontak
 
