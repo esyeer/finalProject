@@ -1,92 +1,116 @@
-# FinalProjectkelompok3
+# Final Project: Automation Testing with Katalon Studio
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+Proyek ini adalah solusi automasi testing menggunakan **Katalon Studio** untuk tiga platform: **Android**, **Website**, dan **API**. Fokus utama proyek ini adalah mengotomatisasi pengujian fitur-fitur kritis seperti **Login**, **Register**, **Buy Event**, dan **Update Profile** pada website dan aplikasi `coding.id`.
 
+## Fitur yang Diuji
 
-## Getting started
+- **Login**: Menguji alur login dengan kredensial valid dan invalid.
+- **Register**: Menguji pendaftaran pengguna baru.
+- **Buy Event**: Menguji proses pembelian event atau kursus.
+- **Update Profile**: Menguji pembaruan informasi profil pengguna.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Platform yang Didukung
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+1. **Android**: Automasi testing untuk aplikasi mobile `coding.id`.
+2. **Website**: Automasi testing untuk website `coding.id`.
+3. **API**: Automasi testing untuk API yang digunakan oleh `coding.id`.
 
-## Add your files
+## Teknologi yang Digunakan
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- **Katalon Studio**: Tools utama untuk automasi testing.
+- **Groovy**: Bahasa scripting yang digunakan di Katalon Studio.
+- **Appium**: Untuk automasi testing aplikasi Android.
+- **Postman/API Testing Tools**: Untuk pengujian API (jika diperlukan).
+
+## Struktur Proyek
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/dokcilboyz/finalprojectkelompok3.git
-git branch -M main
-git push -uf origin main
+finalProject/
+├── Test Cases/               # Berisi test case untuk setiap fitur
+│   ├── Android/              # Test case untuk platform Android
+│   ├── Web/                  # Test case untuk platform Website
+│   └── API/                  # Test case untuk platform API
+├── Object Repository/        # Lokasi penyimpanan elemen UI yang diidentifikasi
+│   ├── Android/              # Object repository untuk Android
+│   └── Web/                  # Object repository untuk Website
+│   └── API/                  # Object repository untuk Website
+├── Test Suites/              # Kumpulan test case yang diorganisir dalam test suite
+├── Scripts/                  # Script Groovy kustom
+├── Data Files/               # File data yang digunakan untuk testing (contoh: CSV, Excel)
+├── Reports/                  # Laporan hasil testing
+└── README.md                 # File README
 ```
 
-## Integrate with your tools
+## Prasyarat
 
-- [ ] [Set up project integrations](https://gitlab.com/dokcilboyz/finalprojectkelompok3/-/settings/integrations)
+Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
-## Collaborate with your team
+- **Katalon Studio**: [Download Katalon Studio](https://katalon.com/download/).
+- **Android SDK**: Untuk testing aplikasi Android.
+- **Web Browser**: Chrome, Firefox, atau browser lain yang didukung.
+- **Appium**: Jika melakukan testing mobile
+- **Java JDK**: Katalon Studio membutuhkan Java JDK.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Cara Menjalankan Proyek
 
-## Test and Deploy
+1. **Clone repositori**:
+   ```bash
+   git clone https://github.com/esyeer/finalProject.git
+   cd finalProject
+   ```
 
-Use the built-in continuous integration in GitLab.
+2. **Buka proyek di Katalon Studio**:
+   - Buka Katalon Studio.
+   - Pilih **Open Project** dan arahkan ke folder `finalProject`.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+3. **Jalankan Test Suite**:
+   - Buka folder `Test Suites`.
+   - Pilih test suite yang ingin dijalankan (Android, Web, atau API).
+   - Klik **Run** untuk menjalankan test suite.
 
-***
+4. **Lihat Hasil Testing**:
+   - Setelah selesai, hasil testing akan tersedia di folder `Reports`.
 
-# Editing this README
+## Contoh Test Case
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+### Login (Website)
+1. Buka halaman login `coding.id`.
+2. Input email dan password yang valid.
+3. Klik tombol login.
+4. Verifikasi bahwa pengguna berhasil login.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### Buy Event (Android)
+1. Buka aplikasi `coding.id`.
+2. Navigasi ke halaman event.
+3. Pilih event yang tersedia.
+4. Klik tombol "Buy".
+5. Verifikasi bahwa event berhasil dibeli.
 
-## Name
-Choose a self-explaining name for your project.
+### Update Profile (API)
+1. Kirim request API untuk login dan dapatkan token.
+2. Gunakan token untuk mengirim request update profile.
+3. Verifikasi response API untuk memastikan profile berhasil diupdate.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## Kontribusi
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Kontribusi sangat diterima! Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+1. Fork repositori ini.
+2. Buat branch baru (`git checkout -b fitur-baru`).
+3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur baru'`).
+4. Push ke branch (`git push origin fitur-baru`).
+5. Buat Pull Request.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Lisensi
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+Proyek ini dilisensikan di bawah lisensi **MIT**. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## Kontak
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Jika Anda memiliki pertanyaan atau masukan, silakan hubungi:
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- **Nama Anda**: [Syarif Hidayatullah]  
+- **GitHub**: [esyeer](https://github.com/esyeer)  
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+---
